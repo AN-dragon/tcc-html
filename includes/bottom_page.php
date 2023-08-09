@@ -37,24 +37,25 @@
     <!-- 3º Coluna -->
     <div class="col-4">
             <h2 style="color: white; font-family: Century Gothic">Redes Sociais</h2>
-            <ul style="list-style:none; padding-left: 0;">
-                <li>
-                    <h5>
-                        <a href="#" style="text-decoration: none; color: white;">
+
+            <!-- Redes Sociais -->
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="#" style="text-decoration: none; color: white;">
                             <img src="img/brand-instagram.png" alt="Instagram" width="50" height="50">
-                        </a>
-                    </h5>
+                    </a>
+
+                <li class="nav-item" style="margin-right: 40px;">
+                    &nbsp;
                 </li>
 
-                <li>
-                    <h5>
-                        <a href="#" style="text-decoration: none; color: white;">
-                            <img src="img/brand-whatsapp.png" alt="Whatsapp" width="50" height="50">
-                        </a>
-                    </h5>
+                <li class="nav-item">
+                    <a href="#" style="text-decoration: none; color: white;">
+                        <img src="img/brand-whatsapp.png" alt="Whatsapp" width="50" height="50">
+                    </a>
                 </li>
-
             </ul>
+
         </div>
 
     </nav>
