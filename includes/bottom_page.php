@@ -1,6 +1,6 @@
 
 <!--Rodapé-->
-<footer>
+<footer class="rodape">
 
     <nav class="navbar" style="background-color:#8a8a8a; padding: 20px;">
 
@@ -18,6 +18,7 @@
     <!-- 2º Coluna -->
         <div class="col-4">
             <h2 style="color: white; font-family: Century Gothic">Ajuda</h2>
+
             <ul style="list-style:none; padding-left: 0;">
                 <li>
                     <h5><a href="#" style="text-decoration: none; color: white; font-family: Century Gothic">
@@ -36,17 +37,15 @@
 
     <!-- 3º Coluna -->
     <div class="col-4">
+
             <h2 style="color: white; font-family: Century Gothic">Redes Sociais</h2>
 
             <!-- Redes Sociais -->
             <ul class="nav">
-                <li class="nav-item">
+                <li class="nav-item" style="margin-right: 20px;">
                     <a href="#" style="text-decoration: none; color: white;">
                             <img src="img/brand-instagram.png" alt="Instagram" width="50" height="50">
                     </a>
-
-                <li class="nav-item" style="margin-right: 40px;">
-                    &nbsp;
                 </li>
 
                 <li class="nav-item">
@@ -77,6 +76,15 @@
         </div>
     </nav>
 
+
+    <style>
+        .rodape{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem; 
+        }
+    </style>
 </body>
 
 </html>
