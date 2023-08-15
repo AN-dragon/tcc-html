@@ -1,6 +1,6 @@
 
 <!--Rodapé-->
-<footer class="rodape">
+<footer>
 
     <nav class="navbar" style="background-color:#8a8a8a; padding: 20px;">
 
@@ -38,12 +38,12 @@
     <!-- 3º Coluna -->
     <div class="col-4">
 
-            <h2 style="color: white; font-family: Century Gothic">Redes Sociais</h2>
+            <h2 style="color: white; font-family: Century Gothic; margin-right: 90px;">Redes Sociais</h2>
 
             <!-- Redes Sociais -->
             <ul class="nav">
                 <li class="nav-item" style="margin-right: 20px;">
-                    <a href="#" style="text-decoration: none; color: white;">
+                    <a href="#" style="text-decoration: none; color: white; margin-top: 20px;">
                             <img src="img/brand-instagram.png" alt="Instagram" width="50" height="50">
                     </a>
                 </li>
@@ -60,7 +60,7 @@
     </nav>
 
     <!-- Frase no rodapé -->
-    <nav class="navbar" style="background-color: #ca005e;">
+    <nav class="navbar" style="background-color: #EB356D;">
         <div class="col-4">
             <!-- Nada aqui -->
         </div>
@@ -76,15 +76,6 @@
         </div>
     </nav>
 
-
-    <style>
-        .rodape{
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 2.5rem; 
-        }
-    </style>
 </body>
 
 </html>

@@ -29,7 +29,7 @@
 
             </div>
         </div>
-           
+
              <a href="sobre.php" class="esp">Sobre</a>
              <a href="dicas.php"class="esp">Dicas</a>
              <a href="repertorios.php" class="esp">Repertórios</a>
@@ -46,6 +46,7 @@
             color: white;
             text-decoration: none;
             font-family: Century Gothic
+            font-weight: bold;
         }
 
     </style>
