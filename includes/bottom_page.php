@@ -17,7 +17,7 @@
 
     <!-- 2º Coluna -->
         <div class="col-4">
-            <h2 style="color: white; font-family: Century Gothic">Ajuda</h2>
+            <h2 style="color: white; font-family: Century Gothic;">Ajuda</h2>
 
             <ul style="list-style:none; padding-left: 0;">
                 <li>
