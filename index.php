@@ -8,71 +8,114 @@ getTopPage();
 
     <!-- Imagem de introdução -->
     <p style="text-align: center; margin-bottom: 65px;">
-        <img src="img/home_img.png" alt="h" width="1200" height="410">
+        <img src="img/home_img3.png" alt="h" width="1200" height="350" style="border: 4px solid #24007D;">
     </p>
 
     <br />
 
-    <h2 style="text-align: center; font-size;">Notas dos alunos e seus desempenhos:</h2>
+    <h2 style="text-align: center; font-size;">Notas dos alunos e suas aprovações:</h2>
 
     <br />
 
     <!-- Carrossel -->
-    <div id="demo"  style="width: 15%; margin: 0 auto;"  class="carousel slide" data-bs-ride="carousel">
-     <!-- Indicators/dots -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="card">
+                <img src="img/fotocarrossel1.png" alt="">
+            </div>
 
-        <div class="carousel-indicators">
+            <div class="card">
+                <img src="img/fotocarrossel2.png" alt="">
+            </div>
 
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <div class="card">
+                <img src="img/fotocarrossel3.png" alt="">
+            </div>
 
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <div class="card">
+                <img src="img/fotocarrossel4.png" alt="">
+            </div>
 
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <div class="card">
+                <img src="img/fotocarrossel5.png" alt="">
+            </div>
 
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <div class="card">
+                <img src="img/fotocarrossel6.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel7.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel8.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel9.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel10.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel11.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel12.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel13.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel14.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel15.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel16.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel17.png" alt="">
+            </div>
 
         </div>
 
-     <!-- The slideshow/carousel -->
+        <button class="prev"></button>
+        <button class="next"></button>
+  </div>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/fotocarrossel1.png" alt="" class="d-block w-100" width="10%" height="10%">
-            </div>
-
-            <div class="carousel-item">
-                <img src="img/fotocarrossel2.png" alt="" class="d-block w-100" width="10%" height="10%">
-            </div>
-
-            <div class="carousel-item">
-                <img src="img/fotocarrossel3.png" alt="" class="d-block w-100" width="10%" height="10%"> 
-            </div>
-
-            <div class="carousel-item">
-                <img src="img/fotocarrossel4.png" alt="" class="d-block w-100" width="10%" height="10%"> 
-            </div>
-        </div>
-
-     <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
-
-      crossorigin="anonymous"
-      >
-    </script>
- <!-- Fim do carrossel -->
+  <script>
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+    const carousel = document.querySelector('.carousel');
+    let currentIndex = 0;
+    
+    prevButton.addEventListener('click', () => {
+      currentIndex = Math.max(currentIndex - 1, 0);
+      updateCarouselPosition();
+    });
+    
+    nextButton.addEventListener('click', () => {
+      currentIndex = Math.min(currentIndex + 1, carousel.children.length - 1);
+      updateCarouselPosition();
+    });
+    
+    function updateCarouselPosition() {
+      const cardWidth = carousel.querySelector('.card').offsetWidth;
+      carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+    }
+  </script>
+    <!-- Fim do carrossel -->
 
     <br />
 
@@ -133,6 +176,62 @@ getTopPage();
         font-family: Century Gothic;
         font-weight: bold;
     }
+
+    /* Propriedades do Carrossel */
+    .carousel-container {
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .card {
+      flex: 0 0 300px;
+      background-color: #f2f2f2;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Botões de navegação do carrossel */
+    .carousel-container button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    .carousel-container button.prev {
+      left: 10px;
+    }
+    
+    .carousel-container button.next {
+      right: 10px;
+    }
+    
+    /* Estilo das setas de navegação */
+    .carousel-container button::before {
+      content: '\2190'; /* Código Unicode da seta esquerda */
+    }
+    
+    .carousel-container button.next::before {
+      content: '\2192'; /* Código Unicode da seta direita */
+    }
+
+    /* Agradecimentos à Luciana por nos ajudar com o carrossel ^.^ */
+
 </style>
 
 <?php getBottomPage() ?>
