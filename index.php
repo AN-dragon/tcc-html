@@ -230,8 +230,6 @@ getTopPage();
       content: '\2192'; /* Código Unicode da seta direita */
     }
 
-    /* Agradecimentos à Luciana por nos ajudar com o carrossel ^.^ */
-
 </style>
 
 <?php getBottomPage() ?>
