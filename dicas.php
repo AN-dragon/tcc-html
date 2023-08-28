@@ -6,129 +6,162 @@ getTopPage();
 
 <main>
 
-    <h1 style="text-align: center; color: #EB356D;">CONHEÇA A METODOLOGIA</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <hr style="color: purple; margin-top: 45px;" size: 100px; width: 100%;>
+        </div>
+
+        <div class="col-4">
+            <h1 style="text-align: center; color: #EB356D;">CONHEÇA A METODOLOGIA</h1>
+        </div>
+
+        <div class="col-4">
+            <hr style="color: purple; font-size: 30px;">
+        </div>
+
+    </div>
+</div>
 
     <!--  Quadros -->
     <div class="container">
         <!-- Primeira linha -->
         <div class="row">
-
+    
             <div class="col" style="margin: 15px; border-radius: 10px; padding: 20px;">
-                <p style=" text-align: center; ">
-                    <img href="#temas" src="img/icon1.png" alt="" width="100px" height="100px">
-                        
-                    <h3 class="dvText">
-                        Temas de Redações 
-                    </h3>
+                <p style="text-align: center; ">
+                    <a href="#temas" style="text-decoration: none; color: black;">
+                        <img src="img/icon1.png" alt="" width="100px" height="100px">
+                    
+                        <h3 class="dvText"> 
+                            Temas de Redações
+                        </h3>
+                    </a>
                 </p>
             </div>
-
+    
             <div class="col-md-auto" style="margin: 15px; border-radius: 10px; padding: 20px;">
-                <p style=" text-align: center; ">
-                    <img href="gramatica" src="img/icon2.png" alt="" width="100px" height="100px">
-
-                    <h3 class="dvText" >
-                        Gramática
-                    </h3>
+                <p style="text-align: center; ">
+                    <a href="#gramatica" style="text-decoration: none; color: #000000">
+                        <img src="img/icon2.png" alt="" width="100px" height="100px">
+                    
+                        <h3 class="dvText">
+                            Gramática
+                        </h3>
+                    </a>
                 </p>
             </div>
-
+    
             <div class="col" style="margin: 15px; border-radius: 10px; padding: 20px;">
-                <a name="Vestibulares">
-                    <p style=" text-align: center; "><img src="img/icon3.png" alt=""  width="100px" height="100px"> 
+                <p style="text-align: center; ">
+                    <a href="#vestibulares" style="text-decoration: none; color: #000000">
+                        <img src="img/icon3.png" alt="" width="100px" height="100px">
+                    
                         <h3 class="dvText">
                             Vestibulares
                         </h3>
-                    </p>
-                </a>
+                    </a>
+                </p>
             </div>
-            
+    
         </div>
-
+    
         <!-- Segunda linha -->
         <div class="row">
-
+    
             <div class="col" style="margin: 15px; border-radius: 10px; padding: 20px; margin-left: 200px;">
-                <a name="Competencias">
-                    <p style=" text-align: center; "><img src="img/icon4.png" alt=""  width="100px" height="100px">
+                <p style="text-align: center; ">
+                    <a href="#competencias" style="text-decoration: none; color: #000000">
+                        <img src="img/icon4.png" alt="" width="100px" height="100px">
+                    
                         <h3 class="dvText">
                             Competências Avaliativas
                         </h3>
-                    </p>
-                </a>
+                    </a>
+                </p>
             </div>
-
+    
             <div class="col" style=" margin: 15px; border-radius: 10px; padding: 20px; margin-right: 200px;">
-                <a name="Estrutura">
-                    <p style=" text-align: center; "> <img src="img/icon-6.png" alt=""   width="100px" height="100px">
+                <p style="text-align: center; ">
+                    <a href="#estrutura" style="text-decoration: none; color: #000000">
+                        <img src="img/icon5.png" alt="" width="100px" height="100px">
+                    
                         <h3 class="dvText">
-                            Estrutura Da Redação
+                            Estrutura de Redação
                         </h3>
-                    </p>
-                </a>
+                    </a>
+                </p>
             </div>
-
+    
         </div>
     </div>
+    <!-- Fim dos Quadros -->
 
     <br />
 
+    <!-- Temas -->
     <h1 id="temas" style="text-align: center; color: #EB356D;">TEMAS POSSÍVEIS DE REDAÇÃO</h1>
 
     <br />
 
  <!-- Carrossel -->
-    <div id="demo"  style="width: 80%; margin: 0 auto;"  class="carousel slide" data-bs-ride="carousel">
+ <div class="carousel-container">
+        <div class="carousel">
+            <div class="card">
+                <img src="img/icon1.png" alt="">
+            </div>
 
-    <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <div class="card">
+                <img src="img/icon2.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/icon3.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/icon4.png" alt="">
+            </div>
+
         </div>
 
-     <!-- The slideshow/carousel -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/zap.jpg" alt="" class="d-block w-100" width="800" height="600">
-            </div>
+        <button class="prev"></button>
+        <button class="next"></button>
+  </div>
 
-            <div class="carousel-item">
-                <img src="img/brand-instagram.png" alt="" class="d-block w-100" width="800" height="600">
-            </div>
-
-            <div class="carousel-item">
-                <img src="img/brand-whatsapp.png" alt="" class="d-block w-100" width="800" height="600"> 
-            </div>
-
-            <div class="carousel-item">
-                <img src="img/icon3.png" alt="" class="d-block w-100" width="800" height="600"> 
-            </div>
-        </div>
-
-     <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
-
-      crossorigin="anonymous"
-      >
-    </script>
+  <script>
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+    const carousel = document.querySelector('.carousel');
+    let currentIndex = 0;
+    
+    prevButton.addEventListener('click', () => {
+      currentIndex = Math.max(currentIndex - 1, 0);
+      updateCarouselPosition();
+    });
+    
+    nextButton.addEventListener('click', () => {
+      currentIndex = Math.min(currentIndex + 1, carousel.children.length - 1);
+      updateCarouselPosition();
+    });
+    
+    function updateCarouselPosition() {
+      const cardWidth = carousel.querySelector('.card').offsetWidth;
+      carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+    }
+  </script>
  <!-- Fim do carrossel -->
      
     <br />
+
+    <p style="text-align: center; margin-top: 200px; margin-bottom: 150px;">
+        <img src="img/REDAÇÃO DO ENEM.png" alt="" width="70%" height="70%">
+    </p>
+    <!-- Fim dos temas -->
+
+    <br />
+
+
 
  <!-- Conteúdos -->
 
@@ -138,6 +171,7 @@ getTopPage();
 
 
     <div class="container">
+        <!-- 1. item -->
         <div class="row" style="margin-top: 21px; margin-bottom: 21px;">
 
             <div class="col-1">
@@ -148,31 +182,34 @@ getTopPage();
 
             <div class="col-11">
                 <p style="font-size: 26px; text-align: justify;">
-                    A utilização de parênteses pode ser bastante útil em uma redação, principalmente para mostrar 
-                    alguma informação relevante que você queira acrescentar à sentença ou fazer alguma referência. 
+                    A utilização de parênteses pode ser bastante útil em uma redação, principalmente para mostrar
+                    alguma informação relevante que você queira acrescentar à sentença ou fazer alguma referência.
                 </p>
             </div>
 
         </div>
 
 
+        <!-- 2. item -->
         <div class="row" style="margin-top: 21px; margin-bottom: 21px;">
 
-            <div class="col-1">
-                <p style="text-align: center; margin-top: 15px;">
+            <div class="col-1" style="margin-top: 38px;">
+                <p style="text-align: center;">
                     <img src="img/icon1.png" alt="" width="40" height="40">
                 </p>
             </div>
 
             <div class="col-11">
                 <p style="font-size: 26px; text-align: justify;">
-                    A utilização de parênteses pode ser bastante útil em uma redação, principalmente para mostrar 
-                    alguma informação relevante que você queira acrescentar à sentença ou fazer alguma referência. 
+                    Cuidado ao ser irônico. Em uma redação dissertativa-argumentativa, você sempre deve ser o mais objetivo possível, ao
+                    utilizar ironias você pode gerar diversos sentidos no que escreve, e, com isso, acabar confundindo a banca
+                    examinadora.
                 </p>
             </div>
 
         </div>
 
+        <!-- 3. item -->
         <div class="row" style="margin-top: 21px; margin-bottom: 21px;">
 
             <div class="col-1">
@@ -183,18 +220,141 @@ getTopPage();
 
             <div class="col-11">
                 <p style="font-size: 26px; text-align: justify;">
-                    A utilização de parênteses pode ser bastante útil em uma redação, principalmente para mostrar 
-                    alguma informação relevante que você queira acrescentar à sentença ou fazer alguma referência. 
+                Não inicie suas frases da mesma maneira, principalmente àquelas que dão início aos parágrafos.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 4. item -->
+        <div class="row" style="margin-top: 21px; margin-bottom: 21px;">
+
+            <div class="col-1" style="margin-top: 30px;">
+                <p style="text-align: center; margin-top: 15px;">
+                    <img src="img/icon1.png" alt="" width="40" height="40">
+                </p>
+            </div>
+
+            <div class="col-11">
+                <p style="font-size: 26px; text-align: justify;">
+                    Outro erro muito comum entre os estudantes, é mudança dos tempos verbais dentro da mesma frase. A conjugação dos
+                    verbos deve estar de acordo com o tempo que está sendo referido, por isso, preste sempre atenção nisto
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 5. item -->
+        <div class="row" style="margin-top: 21px; margin-bottom: 21px;">
+
+            <div class="col-1" style="margin-top: 25px;">
+                <p style="text-align: center; margin-top: 15px;">
+                    <img src="img/icon1.png" alt="" width="40" height="40">
+                </p>
+            </div>
+
+            <div class="col-11">
+                <p style="font-size: 26px; text-align: justify;">
+                    Evite falar de temas paralelos ao que você está pensando. Além de te confundir na hora de elaborar o seu texto, você
+                    pode acabar fugindo do tema ao começar a acrescentar fatos desnecessários e que não estejam relacionados a linha
+                    argumentativa de sua redação.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 6. item -->
+        <div class="row" style="margin-top: 21px; margin-bottom: 21px;">
+
+            <div class="col-1">
+                <p style="text-align: center; margin-top: 15px;">
+                    <img src="img/icon1.png" alt="" width="40" height="40">
+                </p>
+            </div>
+
+            <div class="col-11">
+                <p style="font-size: 26px; text-align: justify;">
+                Não utilize muitas hipérboles em sua redação, isto pode soar exagerado e dar informalidade ao seu texto. (Exemplo: Super, mega, hiper).
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 7. item -->
+        <div class="row" style="margin-top: 21px; margin-bottom: 21px;">
+
+            <div class="col-1">
+                <p style="text-align: center; margin-top: 15px;">
+                    <img src="img/icon1.png" alt="" width="40" height="40">
+                </p>
+            </div>
+
+            <div class="col-11">
+                <p style="font-size: 26px; text-align: justify;">
+                Procure sempre criar frases completas e que tenham sentido. Períodos curtos e desnecessários podem empobrecer gramaticalmente o seu texto.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 8. item -->
+        <div class="row" style="margin-top: 21px; margin-bottom: 21px;">
+
+            <div class="col-1">
+                <p style="text-align: center; margin-top: 15px;">
+                    <img src="img/icon1.png" alt="" width="40" height="40">
+                </p>
+            </div>
+
+            <div class="col-11">
+                <p style="font-size: 26px; text-align: justify;">
+                    Preposições para conectar as suas ideias são importantes, mas devem ser dosadas. Em sua redação, utilize sempre as
+                    preposições em número limitado e cuidadosamente.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 9. item -->
+        <div class="row" style="margin-top: 21px; margin-bottom: 21px;">
+
+            <div class="col-1" style="margin-top: 25px;">
+                <p style="text-align: center; margin-top: 15px;">
+                    <img src="img/icon1.png" alt="" width="40" height="40">
+                </p>
+            </div>
+
+            <div class="col-11">
+                <p style="font-size: 26px; text-align: justify;">
+                    Atente-se sempre na pontuação. A pontuação incorreta pode tirar pontos, por isso, pratique bastante os seus usos
+                    antes da prova, principalmente o uso da vírgula, que acaba confundindo muitos candidatos.
                 </p>
             </div>
 
         </div>
         
-
-
-
     </div>
+    <!-- Fim da gramática -->
 
+
+    <!-- Estrutura de Redação -->
+    <h1 id="estrutura" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
+        ESTRUTURA DE REDAÇÃO
+    </h1>
+
+    <!-- Fim das Estruturas -->
+
+    <!-- Competências avaliativas -->
+    <h1 id="competencias" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
+        COMPETÊNCIAS AVALIATIVAS
+    </h1>
+    <!-- Fim das competências -->
+
+    <!-- Vestibulares -->
+    <h1 id="vestibulares" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
+        VESTIBULARES
+    </h1>
+    <!-- Fim dos vestibulares -->
 
 <br />
 
@@ -204,6 +364,60 @@ getTopPage();
         font-family: Century Gothic;
         font-weight: bold;
     }
+
+    /* Propriedades do Carrossel */
+    .carousel-container {
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .card {
+      flex: 0 0 300px;
+      background-color: #f2f2f2;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Botões de navegação do carrossel */
+    .carousel-container button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    .carousel-container button.prev {
+      left: 10px;
+    }
+    
+    .carousel-container button.next {
+      right: 10px;
+    }
+    
+    /* Estilo das setas de navegação */
+    .carousel-container button::before {
+      content: '\2190'; /* Código Unicode da seta esquerda */
+    }
+    
+    .carousel-container button.next::before {
+      content: '\2192'; /* Código Unicode da seta direita */
+    }
+
 </style>
 
 </main>
