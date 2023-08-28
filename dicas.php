@@ -9,7 +9,7 @@ getTopPage();
 <div class="container">
     <div class="row">
         <div class="col-4">
-            <hr style="color: purple; margin-top: 45px;" size: 100px; width: 100%;>
+            <hr style="margin-top: 45px; border: 4px solid purple; width: 120%" size: 100px; width: 100%;>
         </div>
 
         <div class="col-4">
@@ -17,7 +17,7 @@ getTopPage();
         </div>
 
         <div class="col-4">
-            <hr style="color: purple; font-size: 30px;">
+        <hr style="margin-top: 45px; border: 4px solid purple; width: 120%" size: 100px; width: 100%;>
         </div>
 
     </div>
