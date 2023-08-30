@@ -9,7 +9,7 @@ getTopPage();
 <div class="container">
     <div class="row">
         <div class="col-4">
-            <hr style="margin-top: 45px; border: 4px solid purple; width: 120%" size: 100px; width: 100%;>
+            <hr style="color: #24007D; margin-top: 45px; border: 2px solid #24007D;" width="100%">
         </div>
 
         <div class="col-4">
@@ -17,7 +17,7 @@ getTopPage();
         </div>
 
         <div class="col-4">
-        <hr style="margin-top: 45px; border: 4px solid purple; width: 120%" size: 100px; width: 100%;>
+            <hr style="color: #24007D; margin-top: 45px; border: 2px solid #24007D;" width="100%">
         </div>
 
     </div>
@@ -155,7 +155,7 @@ getTopPage();
     <br />
 
     <p style="text-align: center; margin-top: 200px; margin-bottom: 150px;">
-        <img src="img/REDAÇÃO DO ENEM.png" alt="" width="70%" height="70%">
+        <img src="img/redaçaoenem.png" alt="" width="70%" height="70%">
     </p>
     <!-- Fim dos temas -->
 
@@ -354,6 +354,56 @@ getTopPage();
     <h1 id="vestibulares" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
         VESTIBULARES
     </h1>
+
+
+    <!--  Quadros dos vestibulares -->
+    <div class="container">
+        <!-- Primeira linha -->
+        <div class="row">
+
+            <div class="col" style="background-color: #EB356D; margin: 15px; border-radius: 10px; padding: 20px;">
+                <p>
+                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                </p>
+            </div>
+
+            <div class="col-md-auto" style="background-color: #24007D; margin: 15px; border-radius: 10px; padding: 20px;">
+                <p>
+                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                </p>
+            </div>
+
+            <div class="col" style="background-color: #EB356D; margin: 15px; border-radius: 10px; padding: 20px;">
+                <p>
+                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                </p>
+            </div>
+            
+        </div>
+
+        <!-- Segunda linha -->
+        <div class="row">
+
+            <div class="col" style="background-color: #24007D; margin: 15px; border-radius: 10px; padding: 20px;">
+                <p>
+                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                </p>
+            </div>
+
+            <div class="col" style="background-color: #EB356D; margin: 15px; border-radius: 10px; padding: 20px;">
+                <p>
+                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                </p>
+            </div>
+
+            <div class="col" style="background-color: #EB356D; margin: 15px; border-radius: 10px; padding: 20px;">
+                <p>
+                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                </p>
+            </div>
+
+        </div>
+    </div>
     <!-- Fim dos vestibulares -->
 
 <br />
