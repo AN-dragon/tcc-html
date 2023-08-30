@@ -342,13 +342,76 @@ getTopPage();
         ESTRUTURA DE REDAÇÃO
     </h1>
 
+    <div class="container">
+        <div class="row">
+
+            <div class="col-4">
+                <h2 style="border: 4px solid blue; color: white; border-radius: 5px; background-color: blue; text-align: center;">
+                    Introdução
+                </h2>
+            </div>
+
+        </div>
+    </div>
+
     <!-- Fim das Estruturas -->
+
 
     <!-- Competências avaliativas -->
     <h1 id="competencias" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
         COMPETÊNCIAS AVALIATIVAS
     </h1>
+
+    <!-- Timeline Horizontal aqui -->
+    <!-- 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="hori-timeline" dir="ltr">
+                            <ul class="list-inline events">
+                                <li class="list-inline-item event-list">
+                                    <div class="px-4">
+                                        <div class="event-date bg-soft-primary text-primary">1</div>
+                                        <p class="text-muted">Demonstrar lorem ipsum do nao sei oq la</p>
+                                    </div>
+                                </li>
+
+                                <li class="list-inline-item event-list">
+                                    <div class="px-4">
+                                        <div class="event-date bg-soft-success text-success">2</div>
+                                        <p class="text-muted">Compreender mais lorem ipsum dos nao sei das quantas</p>
+                                    </div>
+                                </li>
+
+                                <li class="list-inline-item event-list">
+                                    <div class="px-4">
+                                        <div class="event-date bg-soft-danger text-danger">3</div>
+                                        <p class="text-muted">Selecionar ainda mais lorem ipsum</p>
+                                    </div>
+                                </li>
+
+                                <li class="list-inline-item event-list">
+                                    <div class="px-4">
+                                        <div class="event-date bg-soft-warning text-warning">4</div>
+                                        <p class="text-muted">Demonstrar denovo lorem ipsum GHAAAAAAAAAAAAAAAAAAAA</p>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+            </div>
+        </div>
+        endcard
+    </div>
+</div>
+
+-->
+
     <!-- Fim das competências -->
+
+
 
     <!-- Vestibulares -->
     <h1 id="vestibulares" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
@@ -361,49 +424,51 @@ getTopPage();
         <!-- Primeira linha -->
         <div class="row">
 
-            <div class="col" style="background-color: #EB356D; margin: 15px; border-radius: 10px; padding: 20px;">
+            <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
                 </p>
             </div>
 
-            <div class="col-md-auto" style="background-color: #24007D; margin: 15px; border-radius: 10px; padding: 20px;">
+            <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <img src="img/uel-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
                 </p>
             </div>
 
-            <div class="col" style="background-color: #EB356D; margin: 15px; border-radius: 10px; padding: 20px;">
+            <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
-                </p>
-            </div>
-            
-        </div>
-
-        <!-- Segunda linha -->
-        <div class="row">
-
-            <div class="col" style="background-color: #24007D; margin: 15px; border-radius: 10px; padding: 20px;">
-                <p>
-                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
-                </p>
-            </div>
-
-            <div class="col" style="background-color: #EB356D; margin: 15px; border-radius: 10px; padding: 20px;">
-                <p>
-                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
-                </p>
-            </div>
-
-            <div class="col" style="background-color: #EB356D; margin: 15px; border-radius: 10px; padding: 20px;">
-                <p>
-                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
                 </p>
             </div>
 
         </div>
     </div>
+
+        <!-- Segunda linha -->
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4" style="border-radius: 10px; padding: 20px;">
+                    <p>
+                        <img src="img/uem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    </p>
+                </div>
+
+                <div class="col-4" style="border-radius: 10px; padding: 20px;">
+                    <p>
+                        <img src="img/Fuvest-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    </p>
+                </div>
+
+                <div class="col-4" style="border-radius: 10px; padding: 20px;">
+                    <p>
+                        <img src="img/unicamp-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    </p>
+                </div>
+
+            </div>
+        </div>
     <!-- Fim dos vestibulares -->
 
 <br />
@@ -468,6 +533,65 @@ getTopPage();
       content: '\2192'; /* Código Unicode da seta direita */
     }
 
+
+    /* Propriedades da Timeline
+
+    .hori-timeline .events {
+        border-top: 3px solid #e9ecef;
+    }
+    .hori-timeline .events .event-list {
+        display: block;
+        position: relative;
+        text-align: center;
+        padding-top: 70px;
+        margin-right: 0;
+    }
+    .hori-timeline .events .event-list:before {
+        content: "";
+        position: absolute;
+        height: 36px;
+        border-right: 2px dashed #dee2e6;
+        top: 0;
+    }
+    .hori-timeline .events .event-list .event-date {
+        position: absolute;
+        top: 38px;
+        left: 0;
+        right: 0;
+        width: 75px;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 2px 4px;
+    }
+    @media (min-width: 1140px) {
+        .hori-timeline .events .event-list {
+            display: inline-block;
+            width: 24%;
+            padding-top: 45px;
+        }
+        .hori-timeline .events .event-list .event-date {
+            top: -12px;
+        }
+    }
+    .bg-soft-primary {
+        background-color: rgba(64,144,203,.3)!important;
+    }
+    .bg-soft-success {
+        background-color: rgba(71,189,154,.3)!important;
+    }
+    .bg-soft-danger {
+        background-color: rgba(231,76,94,.3)!important;
+    }
+    .bg-soft-warning {
+        background-color: rgba(249,213,112,.3)!important;
+    }
+    .card {
+        border: none;
+        margin-bottom: 24px;
+        -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+        box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+    }
+    */
 </style>
 
 </main>
