@@ -342,18 +342,81 @@ getTopPage();
         ESTRUTURA DE REDAÇÃO
     </h1>
 
-    <div class="container">
-        <div class="row">
+    <br />
 
-            <div class="col-4">
-                <h2 style="border: 4px solid blue; color: white; border-radius: 5px; background-color: blue; text-align: center;">
-                    Introdução
+    <div class="container-xxl">
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        <h3>
+                            1. Introdução
+                        </h3>
+                    </button>
                 </h2>
+
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <p>
+                            Aqui fica o texto.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        <h3>
+                            2. Desenvolvimento
+                        </h3>
+                    </button>
+                </h2>
+            
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        <h3>
+                            3. Conclusão
+                        </h3>
+                    </button>
+                </h2>
+
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+
             </div>
 
         </div>
-    </div>
 
+</div>
+    <script src="css/bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+
+    <style>
+        .accordion-button:not(.collapsed) {
+        background-color: #24007D;
+        color: white;
+        }
+    </style>
+
+    <br />
     <!-- Fim das Estruturas -->
 
 
@@ -361,53 +424,6 @@ getTopPage();
     <h1 id="competencias" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
         COMPETÊNCIAS AVALIATIVAS
     </h1>
-
-    <!-- Timeline Horizontal aqui -->
-    <!-- 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-
-                <div class="card">
-                    <div class="card-body">
-                        <div class="hori-timeline" dir="ltr">
-                            <ul class="list-inline events">
-                                <li class="list-inline-item event-list">
-                                    <div class="px-4">
-                                        <div class="event-date bg-soft-primary text-primary">1</div>
-                                        <p class="text-muted">Demonstrar lorem ipsum do nao sei oq la</p>
-                                    </div>
-                                </li>
-
-                                <li class="list-inline-item event-list">
-                                    <div class="px-4">
-                                        <div class="event-date bg-soft-success text-success">2</div>
-                                        <p class="text-muted">Compreender mais lorem ipsum dos nao sei das quantas</p>
-                                    </div>
-                                </li>
-
-                                <li class="list-inline-item event-list">
-                                    <div class="px-4">
-                                        <div class="event-date bg-soft-danger text-danger">3</div>
-                                        <p class="text-muted">Selecionar ainda mais lorem ipsum</p>
-                                    </div>
-                                </li>
-
-                                <li class="list-inline-item event-list">
-                                    <div class="px-4">
-                                        <div class="event-date bg-soft-warning text-warning">4</div>
-                                        <p class="text-muted">Demonstrar denovo lorem ipsum GHAAAAAAAAAAAAAAAAAAAA</p>
-                                    </div>
-                                </li>
-                            </ul>
-                    </div>
-            </div>
-        </div>
-        endcard
-    </div>
-</div>
-
--->
 
     <!-- Fim das competências -->
 
@@ -533,65 +549,6 @@ getTopPage();
       content: '\2192'; /* Código Unicode da seta direita */
     }
 
-
-    /* Propriedades da Timeline
-
-    .hori-timeline .events {
-        border-top: 3px solid #e9ecef;
-    }
-    .hori-timeline .events .event-list {
-        display: block;
-        position: relative;
-        text-align: center;
-        padding-top: 70px;
-        margin-right: 0;
-    }
-    .hori-timeline .events .event-list:before {
-        content: "";
-        position: absolute;
-        height: 36px;
-        border-right: 2px dashed #dee2e6;
-        top: 0;
-    }
-    .hori-timeline .events .event-list .event-date {
-        position: absolute;
-        top: 38px;
-        left: 0;
-        right: 0;
-        width: 75px;
-        margin: 0 auto;
-        border-radius: 4px;
-        padding: 2px 4px;
-    }
-    @media (min-width: 1140px) {
-        .hori-timeline .events .event-list {
-            display: inline-block;
-            width: 24%;
-            padding-top: 45px;
-        }
-        .hori-timeline .events .event-list .event-date {
-            top: -12px;
-        }
-    }
-    .bg-soft-primary {
-        background-color: rgba(64,144,203,.3)!important;
-    }
-    .bg-soft-success {
-        background-color: rgba(71,189,154,.3)!important;
-    }
-    .bg-soft-danger {
-        background-color: rgba(231,76,94,.3)!important;
-    }
-    .bg-soft-warning {
-        background-color: rgba(249,213,112,.3)!important;
-    }
-    .card {
-        border: none;
-        margin-bottom: 24px;
-        -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
-        box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
-    }
-    */
 </style>
 
 </main>
