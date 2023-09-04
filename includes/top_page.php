@@ -15,15 +15,18 @@
 
     <!--Cabeçalho-->
 <header>
-    <nav class="navbar" style="background-color: gray; margin:20px;" >
+    <nav class="navbar" style="background-color: #bdbdbd; margin:20px;" >
 
         <div class="container">
             <div class="row">
 
                 <!--Logo no cabeçalho-->
                 <div class="col-8">
-                    <a href="index.php">
+                    <a href="index.php" class="navbar-brand"
+                     style="color: white; font-size: 25px; font-family: Century Gothic; font-weight: bold;">
+
                         <img src="img/logoRedonda.png" alt="" width="100" height="100">
+                        Beloto & Beloto Redações
                     </a>
                 </div>
 

@@ -2,7 +2,7 @@
 <!--Rodapé-->
 <footer>
 
-    <nav class="navbar" style="background-color:#8a8a8a; padding: 20px;">
+    <nav class="navbar" style="background-color:#bdbdbd; padding: 20px;">
 
     <!-- Logo no rodapé -->
         <div class="col-4">
@@ -69,6 +69,10 @@
             <h5 style="text-align: center; color: white; font-family: Century Gothic">
                 <<"Há um universo de possibilidades">>
             </h5>
+
+            <h6 style="text-align: center; color: white; font-family: Century Gothic">
+                &copy;2023 Etec Professor Mário Antônio Verza. Todos os direitos reservados.
+            </h6>
         </div>
 
         <div class="col-4">
