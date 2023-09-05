@@ -460,27 +460,25 @@ getTopPage();
         <!-- Primeira linha -->
         <div class="row">
 
-            <div class="col-sm" style="border-radius: 10px; padding: 20px;">
+            <div class="col-md-2" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
                 </p>
             </div>
 
-            <div class="col-xl" style="border-radius: 10px; padding: 20px;">
+            <div class="col-md-3" style="padding: 20px;">
                 <p style="text-align: justify; font-size: 21px;">
                     Demonstrar domínio da modalidade escrita formal da língua portuguesa.
                 </p>
             </div>
 
-            <div class="col-sm"></div>
-
-            <div class="col-sm" style="border-radius: 10px; padding: 20px;">
+            <div class="col-md-2" style="padding: 20px;">
                 <p>
                     <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
                 </p>
             </div>
 
-            <div class="col-xl" style="border-radius: 10px; padding: 20px;">
+            <div class="col-md-5" style="padding: 20px;">
                 <p style="text-align: justify; font-size: 21px;">
                     Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa.
                 </p>
@@ -489,27 +487,25 @@ getTopPage();
         <!-- Segunda linha -->
         <div class="row">
 
-            <div class="col-sm" style="border-radius: 10px; padding: 20px;">
+            <div class="col-md-2" style="padding: 20px;">
                 <p>
                     <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
                 </p>
             </div>
 
-            <div class="col-xl" style="border-radius: 10px; padding: 20px;">
+            <div class="col-md-3" style="padding: 20px;">
                 <p style="text-align: justify; font-size: 21px;">
                     Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.
                 </p>
             </div>
 
-            <div class="col-sm"></div>
-
-            <div class="col-sm" style="border-radius: 10px; padding: 20px;">
+            <div class="col-md-2" style="padding: 20px;">
                 <p>
                     <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
                 </p>
             </div>
 
-            <div class="col-xl" style="border-radius: 10px; padding: 20px;">
+            <div class="col-md-5" style="padding: 20px;">
                 <p style="text-align: justify; font-size: 21px;">
                     Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação.
                 </p>
@@ -518,15 +514,15 @@ getTopPage();
         </div>
 
         <!-- Terceira linha -->
-        <div class="row align-items-center" style="justify-content: center; text-align: center;">
+        <div class="row">
 
-            <div class="col-6" style="border-radius: 10px; padding: 20px;">
+            <div class="col-6">
                 <p>
                     <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
                 </p>
             </div>
 
-            <div class="col-6" style="border-radius: 10px;">
+            <div class="col-6">
                 <p style="text-align: justify; font-size: 21px;">
                     Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos.
                 </p>
