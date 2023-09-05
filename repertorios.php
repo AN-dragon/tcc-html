@@ -8,7 +8,7 @@ getTopPage();
 
     <div class="container"> 
         <div class="row" style=" background-color: ;">
-            <div class="col-6" style="margin-top: ;">
+            <div class="col-6" style="margin-top: 30px ;">
         <p>
             <img src="img/rchar.png" alt=""  width="460" height="300" >
         </p>
@@ -20,16 +20,16 @@ getTopPage();
             </div>
         </div>
     </div>
-
-    <h1 style="text-align: center; color: #EB356D;" >Filmes / Séries / Documentários</h1>
+    <br>
+    <h1 style="text-align: center; color: #EB356D;" >FILMES/SÉRIES/DOCUMENTÁRIO</h1>
     <div class="container"> 
         <div class="row" style="margin-top: 21px; margin-bottom: 21px;">  
 
             
                 <div class="col-1" style="margin-top: 30px;">
-                 <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/argentina.jpg" alt="" width="100" height="155">
-                 </p>
+                <p style="text-align: center; margin-top: 15px;">
+                    <img src="img-repertorio/argentina.jpg" alt="" width="100" height="155">
+                </p>
                 </div>
 
                 
@@ -48,7 +48,7 @@ getTopPage();
 
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/legalidade.jpg" alt="" width="100" height="155">
+                    <img src="img-repertorio/legalidade.jpg" alt="" width="100" height="155">
              </p>
         </div>
 
@@ -71,7 +71,7 @@ getTopPage();
 
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/O Menino que Descobriu o Vento.jpg" alt="" width="100" height="155">
+                    <img src="img-repertorio/O Menino.jpg" alt="" width="100" height="155">
              </p>
         </div>
 
@@ -93,7 +93,7 @@ getTopPage();
 
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon4.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/Muros da Escola .jpeg" alt=""  width="100" height="155">
             </p>
          </div>
 
@@ -114,7 +114,7 @@ getTopPage();
             
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon4.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/Último Cruzeiro .jpg" alt=""  width="100" height="155">
             </p>
         </div>
 
@@ -136,7 +136,7 @@ getTopPage();
 
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon4.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/Nise.jpg" alt="" width="100" height="155">
             </p>
         </div>
 
@@ -159,7 +159,7 @@ getTopPage();
             
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon4.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/Busca Corais.jpg" alt=""  width="100" height="155">
             </p>
         </div>
 
@@ -180,7 +180,7 @@ getTopPage();
 
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon4.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/WALL-E.jpg" alt="" width="100" height="155">
             </p>
         </div>
 
@@ -203,7 +203,7 @@ getTopPage();
 
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon4.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/O Dilema.jpg" alt=""  width="100" height="155">
             </p>
         </div>
 
@@ -225,7 +225,7 @@ getTopPage();
 
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon4.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/conspiracao .jpg" alt=""  width="100" height="155">
             </p>
         </div>
 
@@ -243,12 +243,12 @@ getTopPage();
 
     <!-- citações -->
     
-    <h1 style="text-align: center; color: #EB356D;" > Citações Literárias </h1>
+    <h1 style="text-align: center; color: #EB356D;" > CITAÇÕES LITERÁRIAS </h1>
     <div class="container"> 
-        <div class="row" style="margin-top: 21px; margin-bottom: 21px;">  
+        <div class="row" style="margin-top: 30px; margin-bottom: 21px;">  
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/despejo .jpg" alt=""  width="100" height="155">
             </p>
         </div>
 
@@ -268,7 +268,7 @@ getTopPage();
             
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/Capitães.png" alt=""  width="100" height="155">
             </p>
         </div>
 
@@ -288,7 +288,7 @@ getTopPage();
             
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/Cortiço.jpg" alt=""  width="100" height="155">
             </p>
         </div>
             
@@ -309,7 +309,7 @@ getTopPage();
         
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/Ateneu.jpeg" alt=""  width="100" height="155">
             </p>
         </div>
 
@@ -331,7 +331,7 @@ getTopPage();
             
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/Secas.jpg" alt=""  width="100" height="155">
             </p>
         </div>
             
@@ -353,7 +353,7 @@ getTopPage();
             
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img-repertorio/casmurro.jpg" alt=""  width="100" height="155">
             </p>
         </div>
             
@@ -376,13 +376,10 @@ getTopPage();
     <h1 style="text-align: center; color: #EB356D;" > Citações Filosócas / Sociológicas / Históricas </h1>
     <div class="container"> 
         <div class="row" style="margin-top: 21px; margin-bottom: 21px;">  
-            
         <div class="col-1" style="margin-top: 30px;">
-            <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
-            </p>
-        </div>
             
+            </div>
+    
             <div class="col-11">
 
                 <h3>  Revolução Industrial (1760) </h3>    
@@ -396,11 +393,7 @@ getTopPage();
     <div class="container"> 
         <div class="row" style="margin-top: 21px; margin-bottom: 21px;">  
             
-        <div class="col-1" style="margin-top: 30px;">
-            <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
-            </p>
-        </div>
+        <div class="col-1" style="margin-top: 30px;"></div>
 
             <div class="col-11">
 
@@ -414,11 +407,7 @@ getTopPage();
     <div class="container"> 
         <div class="row" style="margin-top: 21px; margin-bottom: 21px;">  
             
-        <div class="col-1" style="margin-top: 30px;">
-            <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
-            </p>
-        </div>
+        <div class="col-1" style="margin-top: 30px;"></div>
 
             <div class="col-11">
                 <h3> Crise de 29  </h3>    
@@ -431,11 +420,7 @@ getTopPage();
     <div class="container"> 
         <div class="row"style="margin-top: 21px; margin-bottom: 21px;" >  
             
-        <div class="col-1" style="margin-top: 30px;">
-            <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
-            </p>
-        </div>
+        <div class="col-1" style="margin-top: 30px;"></div>
             
             <div class="col-11">
 
@@ -452,7 +437,7 @@ getTopPage();
             
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/icon1.png" alt=""  width="100" height="155">
             </p>
         </div>
             
@@ -472,7 +457,7 @@ getTopPage();
             
         <div class="col-1" style="margin-top: 30px;">
             <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/icon1.png" alt=""  width="100" height="155">
             </p>
         </div>
             
