@@ -456,8 +456,8 @@ getTopPage();
 
     <br />
 
+    <!-- Primeira linha -->
     <div class="container">
-        <!-- Primeira linha -->
         <div class="row">
 
             <div class="col-md-2" style="border-radius: 10px; padding: 20px;">
@@ -467,76 +467,99 @@ getTopPage();
             </div>
 
             <div class="col-md-3" style="padding: 20px;">
-                <p style="text-align: justify; font-size: 21px;">
+                <p style="text-align: justify; font-size: 22px;">
                     Demonstrar domínio da modalidade escrita formal da língua portuguesa.
                 </p>
             </div>
 
+            <div class="col-md-1">
+                <!-- Espaçamento aqui -->
+            </div>
+
             <div class="col-md-2" style="padding: 20px;">
                 <p>
                     <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
                 </p>
             </div>
 
-            <div class="col-md-5" style="padding: 20px;">
-                <p style="text-align: justify; font-size: 21px;">
+            <div class="col-md-4" style="padding: 20px;">
+                <p style="text-align: justify; font-size: 22px;">
                     Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa.
                 </p>
             </div>
-
-        <!-- Segunda linha -->
-        <div class="row">
-
-            <div class="col-md-2" style="padding: 20px;">
-                <p>
-                    <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
-                </p>
-            </div>
-
-            <div class="col-md-3" style="padding: 20px;">
-                <p style="text-align: justify; font-size: 21px;">
-                    Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.
-                </p>
-            </div>
-
-            <div class="col-md-2" style="padding: 20px;">
-                <p>
-                    <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
-                </p>
-            </div>
-
-            <div class="col-md-5" style="padding: 20px;">
-                <p style="text-align: justify; font-size: 21px;">
-                    Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação.
-                </p>
-            </div>
-
-        </div>
-
-        <!-- Terceira linha -->
-        <div class="row">
-
-            <div class="col-6">
-                <p>
-                    <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
-                </p>
-            </div>
-
-            <div class="col-6">
-                <p style="text-align: justify; font-size: 21px;">
-                    Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos.
-                </p>
-            </div>
-
+            
         </div>
     </div>
 
+    <!-- Segunda linha -->
+        <div class="container">
+            <div class="row" style="margin-bottom: 20px;">
+
+                <div class="col-md-2" style="padding: 20px;">
+                    <p>
+                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
+                    </p>
+                </div>
+
+                <div class="col-md-3" style="padding: 20px;">
+                    <p style="text-align: justify; font-size: 22px;">
+                        Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.
+                    </p>
+                </div>
+
+                <div class="col-md-1">
+                    <!-- Espaçamento aqui -->
+                </div>
+
+                <div class="col-md-2" style="padding: 20px;">
+                    <p>
+                        <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
+                    </p>
+                </div>
+
+                <div class="col-md-4" style="padding: 20px;">
+                    <p style="text-align: justify; font-size: 22px;">
+                        Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    <!-- Terceira linha -->
+        <div class="container">
+            <div class="row">
+
+                <div class="col-3">
+                    <!-- Espaçamento -->
+                </div>
+
+                <div class="col-2" style="text-align: center;">
+                    <p>
+                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
+                    </p>
+                </div>
+
+                <div class="col-5" style="padding: 20px;">
+                    <p style="text-align: justify; font-size: 22px;">
+                        Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos.
+                    </p>
+                </div>
+
+                <div class="col-2">
+                    <!-- Espaçamento -->
+                </div>
+
+            </div>
+        </div>
+    
+
     <!-- Fim das competências -->
 
-
+    <br />
 
     <!-- Vestibulares -->
-    <h1 id="vestibulares" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
+    <h1 id="vestibulares" style="text-align: center; color: #EB356D; margin-bottom: 15px; margin-top: 15px;">
         VESTIBULARES
     </h1>
 
