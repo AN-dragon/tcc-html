@@ -7,12 +7,8 @@
     <!-- Logo no rodapé -->
         <div class="col-4">
             <p style="text-align: center;">
-                <img src="img/logoRedonda.png" alt="logo" width="90" height="90">
+                <img src="img/logoRedonda.png" alt="logo" width="110" height="110">
             </p>
-
-            <h4 style="text-align: center; font-weight:bold; color: white; font-family: Century Gothic;">
-                Beloto & Beloto Redações
-            </h4>
         </div>
 
     <!-- 2º Coluna -->

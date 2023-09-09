@@ -460,9 +460,10 @@ getTopPage();
     <div class="container">
         <div class="row">
 
-            <div class="col-md-2" style="border-radius: 10px; padding: 20px;">
-                <p>
-                    <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
+            <div class="col-md-2" style="padding: 20px;">
+                <p style="border: 4px solid #EB356D; background-color: #380058;
+                    font-size: 100px; text-align: center; font-family: Impact; color: white;">
+                   1.
                 </p>
             </div>
 
@@ -477,8 +478,9 @@ getTopPage();
             </div>
 
             <div class="col-md-2" style="padding: 20px;">
-                <p>
-                    <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
+                <p style="border: 4px solid #EB356D; background-color: #41007d;
+                    font-size: 100px; text-align: center; font-family: Impact; color: white;">
+                   2.
                 </p>
             </div>
 
@@ -496,8 +498,9 @@ getTopPage();
             <div class="row" style="margin-bottom: 20px;">
 
                 <div class="col-md-2" style="padding: 20px;">
-                    <p>
-                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
+                    <p style="border: 4px solid #EB356D; background-color: #41007d;
+                        font-size: 100px; text-align: center; font-family: Impact; color: white;">
+                    3.
                     </p>
                 </div>
 
@@ -512,8 +515,9 @@ getTopPage();
                 </div>
 
                 <div class="col-md-2" style="padding: 20px;">
-                    <p>
-                        <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
+                    <p style="border: 4px solid #EB356D; background-color: #380058;
+                        font-size: 100px; text-align: center; font-family: Impact; color: white;">
+                    4.
                     </p>
                 </div>
 
@@ -534,9 +538,10 @@ getTopPage();
                     <!-- Espaçamento -->
                 </div>
 
-                <div class="col-2" style="text-align: center;">
-                    <p>
-                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="150" height="150">
+                <div class="col-md-2" style="padding: 20px;">
+                    <p style="border: 4px solid #EB356D; background-color: #380058;
+                        font-size: 100px; text-align: center; font-family: Impact; color: white;">
+                    5.
                     </p>
                 </div>
 
@@ -618,6 +623,14 @@ getTopPage();
 
     <br />
 
+    <h3 style="text-align: center;">
+        <a href="#" style="text-decoration: none; color: #EB356D;">
+            ^ Voltar ao topo ^
+        </a>
+    </h3>
+
+    <br />
+
     <style>
         .dvText {
             text-align: center;
@@ -639,7 +652,7 @@ getTopPage();
         }
 
         .card {
-            flex: 0 0 300px;
+            flex: 0 0 570px;
             background-color: #f2f2f2;
             border-radius: 8px;
             padding: 20px;
