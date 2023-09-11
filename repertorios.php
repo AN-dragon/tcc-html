@@ -6,12 +6,12 @@ getTopPage();
 
 <main>
 
-    <div class="container"> 
+    <div class="container" style="border: 3px solid #24007D;"> 
         <div class="row">
 
             <div class="col-6" style="margin-top: 30px;">
                 <p>
-                    <img src="img/rchar.png" alt=""  width="460" height="300" >
+                    <img src="img-repertorio/rchar.png" alt=""  width="460" height="300" >
                 </p>
             </div>
 
@@ -567,7 +567,7 @@ getTopPage();
     <!-- Citações Filosócas / Sociológicas / Históricas -->
     
     <h1 id="citaçõesfsh" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
-        Citações Filosócas / Sociológicas / Históricas 
+        CITAÇÕES HISTÓRICAS
     </h1>
 
         <div class="container">
@@ -651,48 +651,257 @@ getTopPage();
 
             </div>
         </div>
-            
-            
-        <!-- <div class="container">
-            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
-            
-                <div class="col-1" style="margin-top: 30px;">
-                    <p style="text-align: center; margin-top: 15px;">
-                        <img src="img/icon1.png" alt="" width="100" height="155">
-                    </p>
-                </div>
-            
-                <div class="col-11">
-                    <h3> </h3>
 
-                    <p style="font-size: 20px; text-align: justify;"> 
-                    
-                    </p>
+        <br />
     
-                </div>
+    <!-- Citações Filosócas / Sociológicas  -->
+    
+    <h1 id="citaçõesfsh" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
+        CITAÇÕES FILOSÓFICAS/SOCIOLÓGICAS 
+    </h1>
+    
+            
 
+    <div class="container">
+        <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            
+            <div class="col-1" style="margin-top: 30px;">
+                
             </div>
+
+            <div class="col-11">
+                <h3> “Onde não há lei, não há liberdade.” </h3>
+
+                <p style="font-size: 20px; text-align: justify;"> 
+                    - John Locke, político, filósofo e escritor inglês. Conhecido pela teoria do empirismo e por ser um dos pensadores do iluminismo. 
+                </p>
+    
+            </div>
+
         </div>
+    </div>
             
             
+    <div class="container">
+        <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+
+            <div class="col-1" style="margin-top: 30px;">
+                
+            </div>
+
+            <div class="col-11">
+                <h3> “A dúvida é o princípio da sabedoria.” </h3>
+
+                <p style="font-size: 20px; text-align: justify;"> 
+                    - Aristóteles, filósofo da Grécia Antiga, foi um dos fundadores da filosofia ocidental.  
+                </p>
+            
+            </div>
+
+        </div>
+     </div> 
+
         <div class="container">
             <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
-            
-                <div class="col-1" style="margin-top: 30px;">
-                    <p style="text-align: center; margin-top: 15px;">
-                        <img src="img/icon1.png" alt="" width="100" height="155">
-                    </p>
+            <div class="col-1" style="margin-top: 30px;">
+                
                 </div>
             
                 <div class="col-11">
-                        <h3></h3>
+                        <h3> “O homem não é nada além daquilo que a educação faz dele.”  </h3>
 
-                        <p style="font-size: 20px; text-align: justify;"> </p>
+                        <p style="font-size: 20px; text-align: justify;"> 
+
+                        - Immanuel Kant, filósofo da era moderna que nasceu no Reino da Prússia e um dos principais representantes do iluminismo </p>
             
                 </div>
 
             </div>
-        </div> -->
+        </div> 
+        
+
+        <div class="container">
+            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            <div class="col-1" style="margin-top: 30px;">
+                
+                </div>
+                <div class="col-11">
+                        <h3> “Não existem métodos fáceis para resolver problemas difíceis.”  </h3>
+
+                        <p style="font-size: 20px; text-align: justify;">
+
+                        - René Descartes, filósofo, físico e matemático francês da Idade Moderna, criou o pensamento cartesiano. 
+                       </p>
+            
+                </div>
+
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            <div class="col-1" style="margin-top: 30px;">
+                
+                </div>
+                <div class="col-11">
+                        <h3> “A educação é a arma mais poderosa que você pode usar para mudar o mundo.”   </h3>
+
+                        <p style="font-size: 20px; text-align: justify;"> 
+                        
+                        - Nelson Mandela, advogado e Presidente da República sul-africano que venceu o Nobel da Paz.
+                       </p>
+            
+                </div>
+
+            </div>
+        </div> 
+
+
+        <div class="container">
+            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            <div class="col-1" style="margin-top: 30px;">
+                
+                </div>
+                <div class="col-11">
+                        <h3> “O que me preocupa não é o grito dos maus. É o silêncio dos bons.”  </h3>
+
+                        <p style="font-size: 20px; text-align: justify;"> 
+                         
+                        - Martin Luther King, foi líder do movimento dos direitos civis norte-americanos. 
+                       </p>
+            
+                </div>
+
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            <div class="col-1" style="margin-top: 30px;">
+                
+                </div>
+                <div class="col-11">
+                        <h3> “Sem comunidade não há libertação.”  </h3>
+
+                        <p style="font-size: 20px; text-align: justify;"> 
+                        - Audre Lorde, escritora e militante caribenha-americana. 
+                       </p>
+            
+                </div>
+
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            <div class="col-1" style="margin-top: 30px;">
+                
+                </div>
+                <div class="col-11">
+                        <h3> “Os erros são os portais da descoberta.”  </h3>
+
+                        <p style="font-size: 20px; text-align: justify;"> 
+                        - James Joyce, escritor e poeta irlandês. 
+                       </p>
+            
+                </div>
+
+            </div>
+        </div> 
+
+        
+
+        <div class="container">
+            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            <div class="col-1" style="margin-top: 30px;">
+                
+                </div>
+                <div class="col-11">
+                        <h3> “Mudar é complicado, mas se acomodar é perecer.”   </h3>
+
+                        <p style="font-size: 20px; text-align: justify;"> 
+
+                        - Mario Sergio Cortella, filósofo, acadêmico e escritor brasileiro. 
+                       </p>
+            
+                </div>
+
+            </div>
+        </div> 
+        
+        <h1 id="citaçõesfsh" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
+        REPERTÓRIOS CORINGAS 
+    </h1>
+    
+        <div class="container">
+            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            <div class="col-1" style="margin-top: 30px;">
+                
+                </div>
+                <div class="col-11">
+                        <h3>  A Constituição Federal de 1988 </h3>
+
+                        <p style="font-size: 20px; text-align: justify;"> 
+                        – Norma de maior hierarquia no sistema jurídico brasileiro- assegura a todos a igualdade perante a lei, sem distinção de qualquer natureza. 
+                       </p>
+            
+                </div>
+
+            </div>
+        </div> 
+
+
+        <div class="container">
+            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            <div class="col-1" style="margin-top: 30px;">
+                
+                </div>
+                <div class="col-11">
+                        <h3>  Não corrigir nossas falhas é o mesmo que cometer novos erros. </h3>
+
+                        <p style="font-size: 20px; text-align: justify;"> 
+                        – Confúcio, pensador e filósofo chinês. 
+                       </p>
+            
+                </div>
+
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            <div class="col-1" style="margin-top: 30px;">
+                
+                </div>
+                <div class="col-11">
+                        <h3> Aqueles que não conseguem lembrar o passado estão condenados a repeti-lo. </h3>
+
+                        <p style="font-size: 20px; text-align: justify;">
+                        – George Santayana, filósofo e poeta espanhol.
+                       </p>
+            
+                </div>
+
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="row " style="margin-top: 21px; margin-bottom: 21px;">
+            <div class="col-1" style="margin-top: 30px;">
+                
+                </div>
+                <div class="col-11">
+                        <h3> Temos de nos tornar a mudança que queremos ver.</h3>
+
+                        <p style="font-size: 20px; text-align: justify;"> 
+                        – Mahatma Gandhi, ativista indiano.  
+                       </p>
+            
+                </div>
+
+            </div>
+        </div> 
+
     <h3 style="text-align: center;">
         <a href="#" style="text-decoration: none; color: #EB356D;">
             ^ Voltar ao topo ^

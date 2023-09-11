@@ -8,7 +8,7 @@ getTopPage();
 
     <!-- Imagem de introdução -->
     <p style="text-align: center; margin-bottom: 65px;">
-        <img src="img/home_img3.png" alt="h" width="1200" height="350" style="border: 4px solid #24007D;">
+        <img src="img/home_img.png" alt="h" width="1200" height="350" style="border: 4px solid #24007D;">
     </p>
 
     <br />

@@ -17,13 +17,13 @@
 
             <ul style="list-style:none; padding-left: 0;">
                 <li>
-                    <h5><a href="#" style="text-decoration: none; color: white; font-family: Century Gothic">
+                    <h5><a href="sobre.php" style="text-decoration: none; color: white; font-family: Century Gothic">
                         Central de ajuda
                     </a></h5>
                 </li>
 
                 <li>
-                    <h5><a href="#" style="text-decoration: none; color: white; font-family: Century Gothic">
+                    <h5><a href="sobre.php" style="text-decoration: none; color: white; font-family: Century Gothic">
                         Fale com a B&B Redações
                     </a></h5>
                 </li>

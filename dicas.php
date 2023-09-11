@@ -372,9 +372,32 @@ getTopPage();
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                     aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
-                        <p>
-                            Aqui fica o texto.
+                        <p style="font-size: 21px;">
+                            A introdução é o primeiro contato que o leitor tem com o texto. No primeiro parágrafo, é
+                            apresentado a ideia principal das questões para ser abordado na redação. É nessa hora que o
+                            leitor terá uma dimensão geral do assunto e vai entender as razões pelas quais a discussão
+                            do problema é relevante. A introdução pode ser dividida em 3 ou 4 períodos:
                         </p>
+
+                        <br />
+
+                        <h3 style="font-weight: bold;">Contextualização:</h3> 
+                        <p style="font-size: 21px;">
+                            Onde você deve dar uma visão geral, mais abrangente, antes de chegar no tema.
+                        </p>
+
+                        <h3 style="font-weight: bold;">Problema:</h3> 
+                        <p style="font-size: 21px;">
+                            Onde você apresenta sobre o que se trata o texto especificamente, e faz a conexão
+                            com a contextualização.
+                        </p>
+
+                        <h3 style="font-weight: bold;">Tese:</h3>
+                        <p style="font-size: 21px;">
+                            Onde você apresenta o argumento principal que pretende defender ao longo da sua
+                            redação.
+                        </p>
+
                     </div>
                 </div>
 
@@ -395,12 +418,22 @@ getTopPage();
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                     aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <p style="font-size: 21px;">
+                            Essa parte da estrutura é o momento do texto no qual você vai desenvolver as ideias que foram apresentadas na
+                            introdução. É aqui o momento de argumentar a favor do ponto que você está defendendo, e utilizar a exemplificação para
+                            acrescentar valor ao seu texto.
+                            Depois de estabelecidos os objetivos dos parágrafos, você vai precisar de 4 elementos para construir cada um dos seus
+                            parágrafos de desenvolvimento: afirmação, explicação, exemplificação e conclusão.
+                            Ele pode ser dividido em 4 ou 5 períodos:
+                        </p>
+
+                        <ul style="list-style-type: square; font-size: 21px;">
+                            <li>Retornar ao argumento;</li>
+                            <li>Defender o argumento com o repertório;</li>
+                            <li>Fazer o aprofundamento da argumentação;</li>
+                            <li>Fechamento.</li>
+                        </ul>
+
                     </div>
 
                 </div>
@@ -414,7 +447,7 @@ getTopPage();
                         data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                         aria-controls="panelsStayOpen-collapseThree">
                         <h3>
-                            3. Conclusão
+                            3. Conclusão e Proposta de Intervenção
                         </h3>
                     </button>
                 </h2>
@@ -422,12 +455,28 @@ getTopPage();
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                     aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <p style="font-size: 21px;">
+                            A conclusão é onde você deve apresentar uma solução para os problemas expostos nos parágrafos acima. Esse é o momento
+                            para concluir todas as suas ideias e, mais do que isso, propor uma medida de intervenção para a questão principal
+                            levantada no texto. Pode ser dividido em 3 ou 4 períodos:
+                        </p>
+
+                        <ul style="list-style-type: square; font-size: 21px;">
+                            <li>Retomar os objetivos da sua redação;</li>
+                            <li>Colocar os cincos elementos da Proposta de Intervenção;</li>
+                            <li>Fechamento do texto com uma frase de efeito.</li>
+                        </ul>
+
+                        <h3>Proposta de Intervenção</h3>
+
+                        <ul style="list-style-type: none; font-size: 21px;">
+                            <li>- <strong>Ação</strong> (o quê?)</li>
+                            <li>- <strong>Agente</strong> (quem?)</li>
+                            <li>- <strong>Efeito</strong> (para quê?)</li>
+                            <li>- <strong>Modo</strong> (como?)</li>
+                            <li>- <strong>Detalhamento</strong> (explicação e exemplos)</li>
+                        </ul>
+
                     </div>
                 </div>
 
@@ -463,7 +512,7 @@ getTopPage();
             <div class="col-md-2" style="padding: 20px;">
                 <p style="border: 4px solid #EB356D; background-color: #380058;
                     font-size: 100px; text-align: center; font-family: Impact; color: white;">
-                   1.
+                    1.
                 </p>
             </div>
 
@@ -480,84 +529,86 @@ getTopPage();
             <div class="col-md-2" style="padding: 20px;">
                 <p style="border: 4px solid #EB356D; background-color: #41007d;
                     font-size: 100px; text-align: center; font-family: Impact; color: white;">
-                   2.
+                    2.
                 </p>
             </div>
 
             <div class="col-md-4" style="padding: 20px;">
                 <p style="text-align: justify; font-size: 22px;">
-                    Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa.
+                    Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para
+                    desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa.
                 </p>
             </div>
-            
+
         </div>
     </div>
 
     <!-- Segunda linha -->
-        <div class="container">
-            <div class="row" style="margin-bottom: 20px;">
+    <div class="container">
+        <div class="row" style="margin-bottom: 20px;">
 
-                <div class="col-md-2" style="padding: 20px;">
-                    <p style="border: 4px solid #EB356D; background-color: #41007d;
+            <div class="col-md-2" style="padding: 20px;">
+                <p style="border: 4px solid #EB356D; background-color: #41007d;
                         font-size: 100px; text-align: center; font-family: Impact; color: white;">
                     3.
-                    </p>
-                </div>
+                </p>
+            </div>
 
-                <div class="col-md-3" style="padding: 20px;">
-                    <p style="text-align: justify; font-size: 22px;">
-                        Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.
-                    </p>
-                </div>
+            <div class="col-md-3" style="padding: 20px;">
+                <p style="text-align: justify; font-size: 22px;">
+                    Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa
+                    de um ponto de vista.
+                </p>
+            </div>
 
-                <div class="col-md-1">
-                    <!-- Espaçamento aqui -->
-                </div>
+            <div class="col-md-1">
+                <!-- Espaçamento aqui -->
+            </div>
 
-                <div class="col-md-2" style="padding: 20px;">
-                    <p style="border: 4px solid #EB356D; background-color: #380058;
+            <div class="col-md-2" style="padding: 20px;">
+                <p style="border: 4px solid #EB356D; background-color: #380058;
                         font-size: 100px; text-align: center; font-family: Impact; color: white;">
                     4.
-                    </p>
-                </div>
-
-                <div class="col-md-4" style="padding: 20px;">
-                    <p style="text-align: justify; font-size: 22px;">
-                        Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação.
-                    </p>
-                </div>
-
+                </p>
             </div>
+
+            <div class="col-md-4" style="padding: 20px;">
+                <p style="text-align: justify; font-size: 22px;">
+                    Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação.
+                </p>
+            </div>
+
         </div>
+    </div>
 
     <!-- Terceira linha -->
-        <div class="container">
-            <div class="row">
+    <div class="container">
+        <div class="row">
 
-                <div class="col-3">
-                    <!-- Espaçamento -->
-                </div>
+            <div class="col-3">
+                <!-- Espaçamento -->
+            </div>
 
-                <div class="col-md-2" style="padding: 20px;">
-                    <p style="border: 4px solid #EB356D; background-color: #380058;
+            <div class="col-md-2" style="padding: 20px;">
+                <p style="border: 4px solid #EB356D; background-color: #380058;
                         font-size: 100px; text-align: center; font-family: Impact; color: white;">
                     5.
-                    </p>
-                </div>
-
-                <div class="col-5" style="padding: 20px;">
-                    <p style="text-align: justify; font-size: 22px;">
-                        Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos.
-                    </p>
-                </div>
-
-                <div class="col-2">
-                    <!-- Espaçamento -->
-                </div>
-
+                </p>
             </div>
+
+            <div class="col-5" style="padding: 20px;">
+                <p style="text-align: justify; font-size: 22px;">
+                    Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos.
+                </p>
+            </div>
+
+            <div class="col-2">
+                <!-- Espaçamento -->
+            </div>
+
         </div>
-    
+    </div>
+
 
     <!-- Fim das competências -->
 
