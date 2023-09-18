@@ -44,9 +44,15 @@
                     </a>
                 </li>
 
+                <li class="nav-item" style="margin-right: 20px;">
+                    <a href="sobre.php" style="text-decoration: none; color: white;">
+                        <img src="img/brand-whatsapp.png" alt="Whatsapp" width="50" height="50">
+                    </a>
+                </li>
+
                 <li class="nav-item">
                     <a href="#" style="text-decoration: none; color: white;">
-                        <img src="img/brand-whatsapp.png" alt="Whatsapp" width="50" height="50">
+                        <img src="img/brand-tiktok.png" alt="TikTok" width="50" height="50">
                     </a>
                 </li>
             </ul>
@@ -56,7 +62,7 @@
     </nav>
 
     <!-- Frase no rodapé -->
-    <nav class="navbar" style="background-color: #EB356D;">
+    <nav class="navbar" style="background-color: #c71352;">
         <div class="col-4">
             <!-- Nada aqui -->
         </div>

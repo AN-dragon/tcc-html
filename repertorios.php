@@ -11,12 +11,12 @@ getTopPage();
 
             <div class="col-6" style="margin-top: 30px;">
                 <p>
-                    <img src="img-repertorio/rchar.png" alt=""  width="460" height="300" >
+                    <img src="img-repertorio/rchar.png" alt=""  width="460" height="300">
                 </p>
             </div>
 
             <div class="col-6">
-                <h1 style="text-align: center; color: #EB356D; margin-top: 80px;">
+                <h1 style="text-align: center; color: #EB356D; margin-top: 15px;">
                     Encontre seu tipo ideal de repertório!
                 </h1>
 
@@ -38,13 +38,30 @@ getTopPage();
                             </h3>
                         </a>
 
-                        <a href="#citaçõesfsh" 
+                        <a href="#citações-h" 
                             style="text-decoration: none; text-align: center; color: #24007D;">
                             
                             <h3>
                                 Citações Históricas
                             </h3>
                         </a>
+
+                        <a href="#citações-fs" 
+                            style="text-decoration: none; text-align: center; color: #24007D;">
+                            
+                            <h3>
+                                Citações Filosóficas/Sociológicas
+                            </h3>
+                        </a>
+
+                        <a href="#coringas" 
+                            style="text-decoration: none; text-align: center; color: #24007D;">
+                            
+                            <h3>
+                                Repertórios Coringas
+                            </h3>
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -564,9 +581,9 @@ getTopPage();
             </div>
             
     <br />
-    <!-- Citações Filosócas / Sociológicas / Históricas -->
+    <!-- Citações Históricas -->
     
-    <h1 id="citaçõesfsh" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
+    <h1 id="citações-h" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
         CITAÇÕES HISTÓRICAS
     </h1>
 
@@ -656,7 +673,7 @@ getTopPage();
     
     <!-- Citações Filosócas / Sociológicas  -->
     
-    <h1 id="citaçõesfsh" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
+    <h1 id="citações-fs" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
         CITAÇÕES FILOSÓFICAS/SOCIOLÓGICAS 
     </h1>
     
@@ -829,9 +846,11 @@ getTopPage();
             </div>
         </div> 
         
-        <h1 id="citaçõesfsh" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
-        REPERTÓRIOS CORINGAS 
-    </h1>
+
+        <!-- Repertórios Coringas -->
+        <h1 id="coringas" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
+            REPERTÓRIOS CORINGAS 
+        </h1>
     
         <div class="container">
             <div class="row " style="margin-top: 21px; margin-bottom: 21px;">

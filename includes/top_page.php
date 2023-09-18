@@ -15,7 +15,7 @@
 
     <!--Cabeçalho-->
 <header>
-    <nav class="navbar" style="background-color: #bdbdbd; margin:20px;" >
+    <nav class="navbar" style="background-color: #bdbdbd; margin-top: 20px; margin-left: 20px; margin-right: 20px;" >
 
         <div class="container">
             <div class="row">

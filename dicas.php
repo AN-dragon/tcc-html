@@ -108,19 +108,23 @@ getTopPage();
     <div class="carousel-container">
         <div class="carousel">
             <div class="card">
-                <img src="img/icon1.png" alt="">
+                <img src="img/2.jpg" alt="">
             </div>
 
             <div class="card">
-                <img src="img/icon2.png" alt="">
+                <img src="img/3.jpg" alt="">
             </div>
 
             <div class="card">
-                <img src="img/icon3.png" alt="">
+                <img src="img/4.jpg" alt="">
             </div>
 
             <div class="card">
-                <img src="img/icon4.png" alt="">
+                <img src="img/5.jpg" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/6.jpg" alt="">
             </div>
 
         </div>
@@ -633,7 +637,7 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <img src="img/uel-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <img src="img/uel-logo2.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
                 </p>
             </div>
 
@@ -658,13 +662,13 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <img src="img/Fuvest-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <img src="img/fuvest-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
                 </p>
             </div>
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <img src="img/unicamp-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <img src="img/unicamp-logo2.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
                 </p>
             </div>
 
