@@ -158,9 +158,39 @@ getTopPage();
 
     <br />
 
-    <p style="text-align: center; margin-top: 200px; margin-bottom: 150px;">
-        <img src="img/redaçaoenem.png" alt="" width="70%" height="70%">
-    </p>
+    <h1 style="text-align: center; color: #EB356D; margin-bottom: 25px;">
+        TEMAS ANTERIORES DA REDAÇÃO DO ENEM
+    </h1>
+
+    <div class="container" style="list-style-position: inside;">
+        <ul style="font-size: 29px; list-style-type: none;">
+            <li><strong>2022</strong> - Desafios para a valorização de comunidade e povos tradicionais no Brasil.</li>
+            <li><strong>2021</strong> - Invisibilidade e registo civil: garantia de acesso á cidania no Brasil.</li>
+            <li><strong>2020</strong> - O estigma associado às doenças mentais na sociedade brasileira (tema do Enem impresso).</li>
+            <li><strong>2020</strong> - O desafio de reduzir as desigualdades entre as regiões do Brasil (tema do Enem digital).
+            <li><strong>2019</strong> - Democratização do acesso ao cinema no Brasil.</li>
+            <li><strong>2018</strong> - Manipulação do comportamento do usuário pelo controle de dados na Internet.</li>
+            <li><strong>2017</strong> - Desafios para a formação educacional de surdos no Brasil.</li>
+        </ul>
+    </div>
+    <!-- Alt -->
+    <h2 style="margin-top: 25px;">Alternativo abaixo</h2>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-2">
+                <h2 style="font-weight: bold;">> 2022:</h3>
+            </div>
+
+            <div class="col-10">
+                <p style="font-size: 27px;">
+                    Desafios para a valorização de comunidade e povos tradicionais no Brasil.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
     <!-- Fim dos temas -->
 
     <br />

@@ -73,7 +73,7 @@
             </h5>
 
             <h6 style="text-align: center; color: white; font-family: Century Gothic">
-                &copy;2023 Etec Professor Mário Antônio Verza. Todos os direitos reservados.
+                &copy;2023 Beloto & Beloto Redações. Todos os direitos reservados.
             </h6>
         </div>
 
