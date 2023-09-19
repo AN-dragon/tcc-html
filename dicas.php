@@ -661,19 +661,25 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="#">
+                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    </a>
                 </p>
             </div>
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <img src="img/uel-logo2.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="#">
+                        <img src="img/uel-logo2.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    </a>
                 </p>
             </div>
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="#">
+                        <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    </a>
                 </p>
             </div>
 
@@ -686,19 +692,25 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <img src="img/uem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="#">
+                        <img src="img/uem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    </a>
                 </p>
             </div>
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <img src="img/fuvest-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="#">
+                        <img src="img/fuvest-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    </a>
                 </p>
             </div>
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <img src="img/unicamp-logo2.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="#">
+                        <img src="img/unicamp-logo2.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    </a>
                 </p>
             </div>
 

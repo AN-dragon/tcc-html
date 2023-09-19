@@ -29,6 +29,10 @@ getTopPage();
             </div>
 
             <div class="card">
+                <img src="img/fotocarrossel5.png" alt="">
+            </div>
+
+            <div class="card">
                 <img src="img/fotocarrossel3.png" alt="">
             </div>
 
@@ -37,19 +41,7 @@ getTopPage();
             </div>
 
             <div class="card">
-                <img src="img/fotocarrossel5.png" alt="">
-            </div>
-
-            <div class="card">
                 <img src="img/fotocarrossel6.png" alt="">
-            </div>
-
-            <div class="card">
-                <img src="img/fotocarrossel7.png" alt="">
-            </div>
-
-            <div class="card">
-                <img src="img/fotocarrossel8.png" alt="">
             </div>
 
             <div class="card">
@@ -57,7 +49,11 @@ getTopPage();
             </div>
 
             <div class="card">
-                <img src="img/fotocarrossel10.png" alt="">
+                <img src="img/fotocarrossel16.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel8.png" alt="">
             </div>
 
             <div class="card">
@@ -66,6 +62,10 @@ getTopPage();
 
             <div class="card">
                 <img src="img/fotocarrossel12.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/fotocarrossel17.png" alt="">
             </div>
 
             <div class="card">
