@@ -6,6 +6,7 @@ getTopPage();
 
 <main>
 
+    <!-- Introdução -->
     <div class="container">
         <div class="row">
             <div class="col-4">
@@ -13,7 +14,9 @@ getTopPage();
             </div>
 
             <div class="col-4">
-                <h1 style="text-align: center; color: #c71352;">CONHEÇA A METODOLOGIA</h1>
+                <h1 style="text-align: center; color: #c71352; font-family: Century Gothic;">
+                    CONHEÇA A METODOLOGIA
+                </h1>
             </div>
 
             <div class="col-4">
@@ -23,7 +26,7 @@ getTopPage();
         </div>
     </div>
 
-    <!--  Quadros -->
+    <!--  Quadros listando os tópicos -->
     <div class="container">
         <!-- Primeira linha -->
         <div class="row">
@@ -99,8 +102,11 @@ getTopPage();
 
     <br />
 
-    <!-- Temas -->
-    <h1 id="temas" style="text-align: center; color: #c71352;">TEMAS POSSÍVEIS DE REDAÇÃO</h1>
+
+    <!-- [] Temas -->
+    <h1 id="temas" style="text-align: center; color: #c71352; font-family: Century Gothic;">
+        TEMAS POSSÍVEIS DE REDAÇÃO
+    </h1>
 
     <br />
 
@@ -163,12 +169,12 @@ getTopPage();
 
     <br />
 
-    <h1 style="text-align: center; color: #c71352; margin-bottom: 25px; margin-top: 26px;">
+    <h1 style="text-align: center; color: #c71352; margin-bottom: 25px; margin-top: 26px; font-family: Century Gothic;">
         TEMAS ANTERIORES DA REDAÇÃO DO ENEM
     </h1>
 
     <div class="container" style="list-style-position: inside;">
-        <ul style="font-size: 29px; list-style-type: none;">
+        <ul style="font-size: 29px; list-style-type: none; font-family: Century Gothic;">
             <li><strong>2022</strong> - Desafios para a valorização de comunidade e povos tradicionais no Brasil.</li>
             <li><strong>2021</strong> - Invisibilidade e registo civil: garantia de acesso á cidania no Brasil.</li>
             <li><strong>2020</strong> - O estigma associado às doenças mentais na sociedade brasileira (tema do Enem impresso).</li>
@@ -184,10 +190,9 @@ getTopPage();
     <br />
 
 
+    <!-- [] Conteúdos -->
 
-    <!-- Conteúdos -->
-
-    <h1 id="gramatica" style="text-align: center; color: #c71352; margin-bottom: 15px;">
+    <h1 id="gramatica" style="text-align: center; color: #c71352; margin-bottom: 15px; font-family: Century Gothic;">
         GRAMÁTICA
     </h1>
 
@@ -203,7 +208,7 @@ getTopPage();
             </div>
 
             <div class="col-11">
-                <p style="font-size: 26px; text-align: justify;">
+                <p style="font-size: 26px; text-align: justify; font-family: Century Gothic;">
                     A utilização de parênteses pode ser bastante útil em uma redação, principalmente para mostrar
                     alguma informação relevante que você queira acrescentar à sentença ou fazer alguma referência.
                 </p>
@@ -222,7 +227,7 @@ getTopPage();
             </div>
 
             <div class="col-11">
-                <p style="font-size: 26px; text-align: justify;">
+                <p style="font-size: 26px; text-align: justify; font-family: Century Gothic;">
                     Cuidado ao ser irônico. Em uma redação dissertativa-argumentativa, você sempre deve ser o mais
                     objetivo possível, ao
                     utilizar ironias você pode gerar diversos sentidos no que escreve, e, com isso, acabar confundindo a
@@ -369,7 +374,7 @@ getTopPage();
     <!-- Fim da gramática -->
 
 
-    <!-- Estrutura de Redação -->
+    <!-- [] Estrutura de Redação -->
     <h1 id="estrutura" style="text-align: center; color: #c71352; margin-bottom: 15px;">
         ESTRUTURA DE REDAÇÃO
     </h1>
@@ -520,7 +525,7 @@ getTopPage();
     <!-- Fim das Estruturas -->
 
 
-    <!-- Competências avaliativas -->
+    <!-- [] Competências avaliativas -->
     <h1 id="competencias" style="text-align: center; color: #c71352; margin-bottom: 15px; margin-top: 28px;">
         COMPETÊNCIAS AVALIATIVAS
     </h1>
@@ -636,7 +641,8 @@ getTopPage();
 
     <br />
 
-    <!-- Vestibulares -->
+
+    <!-- [] Vestibulares -->
     <h1 id="vestibulares" style="text-align: center; color: #c71352; margin-bottom: 15px; margin-top: 20px;">
         VESTIBULARES
     </h1>
@@ -708,6 +714,7 @@ getTopPage();
 
     <br />
 
+    
     <h3 style="text-align: center;">
         <a href="#" style="text-decoration: none; color: #c71352;">
             ^ Voltar ao topo ^

@@ -25,7 +25,7 @@
                     <a href="index.php" class="navbar-brand"
                      style="color: white; font-size: 25px; font-family: Century Gothic; font-weight: bold;">
 
-                        <img src="img/logoRedonda.png" alt="" width="100" height="100">
+                        <img src="img/logoRedonda.png" alt="logo" width="100" height="100">
                         Beloto & Beloto Redações
                     </a>
                 </div>

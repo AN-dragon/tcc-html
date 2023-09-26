@@ -5,7 +5,7 @@ getTopPage();
 ?>
 
 <main>
-
+    <!-- Introdução -->
     <div class="container" style="background-color: #c71352; width: 100%;"> 
         <div class="row">
 
@@ -73,7 +73,7 @@ getTopPage();
     </div>
 
 
-    <!-- Filmes e Séries -->
+    <!-- [] Filmes e Séries -->
     <h1 id="filmes" style="text-align: center; color: #c71352; margin-top: 25px;">
         FILMES/SÉRIES/DOCUMENTÁRIO
     </h1>
@@ -400,7 +400,9 @@ getTopPage();
             </div>
             
     <br />
-        <!-- Citações Literárias -->
+
+
+    <!-- [] Citações Literárias -->
             
             <h1 id="livros" style="text-align: center; color: #c71352; margin-top: 25px;"> 
                 CITAÇÕES LITERÁRIAS 
@@ -583,7 +585,9 @@ getTopPage();
             </div>
             
     <br />
-    <!-- Citações Históricas -->
+
+
+    <!-- [] Citações Históricas -->
     
     <h1 id="citações-h" style="text-align: center; color: #c71352; margin-top: 25px;"> 
         CITAÇÕES HISTÓRICAS
@@ -673,7 +677,8 @@ getTopPage();
 
         <br />
     
-    <!-- Citações Filosócas / Sociológicas  -->
+
+    <!-- [] Citações Filosócas / Sociológicas  -->
     
     <h1 id="citações-fs" style="text-align: center; color: #c71352; margin-top: 25px;"> 
         CITAÇÕES FILOSÓFICAS/SOCIOLÓGICAS 
@@ -849,7 +854,7 @@ getTopPage();
         </div> 
         
 
-        <!-- Repertórios Coringas -->
+        <!-- [] Repertórios Coringas -->
         <h1 id="coringas" style="text-align: center; color: #c71352; margin-top: 25px;"> 
             REPERTÓRIOS CORINGAS 
         </h1>
