@@ -6,7 +6,7 @@ getTopPage();
 
 <main>
 
-    <div class="container" style="border: 3px solid #24007D;"> 
+    <div class="container" style="background-color: #c71352; width: 100%;"> 
         <div class="row">
 
             <div class="col-6" style="margin-top: 30px;">
@@ -14,65 +14,67 @@ getTopPage();
                     <img src="img-repertorio/rchar.png" alt=""  width="460" height="300">
                 </p>
             </div>
-
-            <div class="col-6">
-                <h1 style="text-align: center; color: #EB356D; margin-top: 15px;">
-                    Encontre seu tipo ideal de repertório!
-                </h1>
-
-                <div class="row">
-                    <div class="col">
-                        <a href="#filmes" 
-                            style="text-decoration: none; text-align: center; color: #24007D;">
-                            
-                            <h3>
-                                Filmes e Séries
-                            </h3>
-                        </a>
-
-                        <a href="#livros" 
-                            style="text-decoration: none; text-align: center; color: #24007D;">
-
-                            <h3>
-                                Livros
-                            </h3>
-                        </a>
-
-                        <a href="#citações-h" 
-                            style="text-decoration: none; text-align: center; color: #24007D;">
-                            
-                            <h3>
-                                Citações Históricas
-                            </h3>
-                        </a>
-
-                        <a href="#citações-fs" 
-                            style="text-decoration: none; text-align: center; color: #24007D;">
-                            
-                            <h3>
-                                Citações Filosóficas/Sociológicas
-                            </h3>
-                        </a>
-
-                        <a href="#coringas" 
-                            style="text-decoration: none; text-align: center; color: #24007D;">
-                            
-                            <h3>
-                                Repertórios Coringas
-                            </h3>
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 
     <br />
 
+    <div class="container" style="margin-top: 28px;">
+        <hr>
+        
+        <div class="row">
+            <div class="col-2">
+                <a href="#filmes"
+                style="text-decoration: none; text-align: center; color: black;">
+            
+                <h3 style="font-size: 21px;">Filmes e Séries</h3>
+            
+                </a>
+            </div>
+
+            <div class="col-1">
+                <a href="#livros"
+                style="text-decoration: none; text-align: center; color: black;">
+            
+                <h3 style="font-size: 21px;">Livros</h3>
+            
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a href="#citações-h"
+                style="text-decoration: none; text-align: center; color: black;">
+            
+                <h3 style="font-size: 21px;">Citações Históricas</h3>
+            
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="#citações-fs"
+                style="text-decoration: none; text-align: center; color: black;">
+            
+                <h3 style="font-size: 21px;">Citações Filosóficas/Sociológicas</h3>
+            
+                </a>
+            </div>
+
+            <div class="col-3">
+                <a href="#coringas"
+                style="text-decoration: none; text-align: center; color: black;">
+            
+                <h3 style="font-size: 21px;">Repertórios Coringas</h3>
+            
+                </a>
+            </div>
+
+        </div>
+        <hr>
+    </div>
+
+
     <!-- Filmes e Séries -->
-    <h1 id="filmes" style="text-align: center; color: #EB356D; margin-top: 25px;">
+    <h1 id="filmes" style="text-align: center; color: #c71352; margin-top: 25px;">
         FILMES/SÉRIES/DOCUMENTÁRIO
     </h1>
 
@@ -400,7 +402,7 @@ getTopPage();
     <br />
         <!-- Citações Literárias -->
             
-            <h1 id="livros" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
+            <h1 id="livros" style="text-align: center; color: #c71352; margin-top: 25px;"> 
                 CITAÇÕES LITERÁRIAS 
             </h1>
 
@@ -583,7 +585,7 @@ getTopPage();
     <br />
     <!-- Citações Históricas -->
     
-    <h1 id="citações-h" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
+    <h1 id="citações-h" style="text-align: center; color: #c71352; margin-top: 25px;"> 
         CITAÇÕES HISTÓRICAS
     </h1>
 
@@ -673,7 +675,7 @@ getTopPage();
     
     <!-- Citações Filosócas / Sociológicas  -->
     
-    <h1 id="citações-fs" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
+    <h1 id="citações-fs" style="text-align: center; color: #c71352; margin-top: 25px;"> 
         CITAÇÕES FILOSÓFICAS/SOCIOLÓGICAS 
     </h1>
     
@@ -848,7 +850,7 @@ getTopPage();
         
 
         <!-- Repertórios Coringas -->
-        <h1 id="coringas" style="text-align: center; color: #EB356D; margin-top: 25px;"> 
+        <h1 id="coringas" style="text-align: center; color: #c71352; margin-top: 25px;"> 
             REPERTÓRIOS CORINGAS 
         </h1>
     
@@ -922,7 +924,7 @@ getTopPage();
         </div> 
 
     <h3 style="text-align: center;">
-        <a href="#" style="text-decoration: none; color: #EB356D;">
+        <a href="#" style="text-decoration: none; color: #c71352;">
             ^ Voltar ao topo ^
         </a>
     </h3>

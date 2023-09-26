@@ -13,7 +13,7 @@ getTopPage();
             </div>
 
             <div class="col-4">
-                <h1 style="text-align: center; color: #EB356D;">CONHEÇA A METODOLOGIA</h1>
+                <h1 style="text-align: center; color: #c71352;">CONHEÇA A METODOLOGIA</h1>
             </div>
 
             <div class="col-4">
@@ -31,7 +31,7 @@ getTopPage();
             <div class="col" style="margin: 15px; border-radius: 10px; padding: 20px;">
                 <p style="text-align: center; ">
                     <a href="#temas" style="text-decoration: none; color: black;">
-                        <img src="img/icon1.png" alt="" width="100px" height="100px">
+                        <img src="img/d_temas_icon.png" alt="" width="100px" height="100px">
 
                         <h3 class="dvText">
                             Temas de Redações
@@ -43,7 +43,7 @@ getTopPage();
             <div class="col-md-auto" style="margin: 15px; border-radius: 10px; padding: 20px;">
                 <p style="text-align: center; ">
                     <a href="#gramatica" style="text-decoration: none; color: #000000">
-                        <img src="img/icon2.png" alt="" width="100px" height="100px">
+                        <img src="img/d_gramatica_icon.png" alt="" width="100px" height="100px">
 
                         <h3 class="dvText">
                             Gramática
@@ -55,7 +55,7 @@ getTopPage();
             <div class="col" style="margin: 15px; border-radius: 10px; padding: 20px;">
                 <p style="text-align: center; ">
                     <a href="#vestibulares" style="text-decoration: none; color: #000000">
-                        <img src="img/icon3.png" alt="" width="100px" height="100px">
+                        <img src="img/d_vestibulares_icon.png" alt="" width="100px" height="100px">
 
                         <h3 class="dvText">
                             Vestibulares
@@ -72,7 +72,7 @@ getTopPage();
             <div class="col" style="margin: 15px; border-radius: 10px; padding: 20px; margin-left: 200px;">
                 <p style="text-align: center; ">
                     <a href="#competencias" style="text-decoration: none; color: #000000">
-                        <img src="img/icon4.png" alt="" width="100px" height="100px">
+                        <img src="img/d_competencias_icon.png" alt="" width="100px" height="100px">
 
                         <h3 class="dvText">
                             Competências Avaliativas
@@ -84,7 +84,7 @@ getTopPage();
             <div class="col" style=" margin: 15px; border-radius: 10px; padding: 20px; margin-right: 200px;">
                 <p style="text-align: center; ">
                     <a href="#estrutura" style="text-decoration: none; color: #000000">
-                        <img src="img/icon5.png" alt="" width="100px" height="100px">
+                        <img src="img/d_estrutura_icon.png" alt="" width="100px" height="100px">
 
                         <h3 class="dvText">
                             Estrutura de Redação
@@ -100,31 +100,36 @@ getTopPage();
     <br />
 
     <!-- Temas -->
-    <h1 id="temas" style="text-align: center; color: #EB356D;">TEMAS POSSÍVEIS DE REDAÇÃO</h1>
+    <h1 id="temas" style="text-align: center; color: #c71352;">TEMAS POSSÍVEIS DE REDAÇÃO</h1>
 
     <br />
 
     <!-- Carrossel -->
     <div class="carousel-container">
         <div class="carousel">
+            
             <div class="card">
-                <img src="img/2.jpg" alt="">
+                <img src="img/d_carrossel1.jpg" alt="">
             </div>
 
             <div class="card">
-                <img src="img/3.jpg" alt="">
+                <img src="img/d_carrossel2.jpg" alt="">
             </div>
 
             <div class="card">
-                <img src="img/4.jpg" alt="">
+                <img src="img/d_carrossel3.jpg" alt="">
             </div>
 
             <div class="card">
-                <img src="img/5.jpg" alt="">
+                <img src="img/d_carrossel4.jpg" alt="">
             </div>
 
             <div class="card">
-                <img src="img/6.jpg" alt="">
+                <img src="img/d_carrossel5.jpg" alt="">
+            </div>
+
+            <div class="card">
+                <img src="img/d_carrossel6.jpg" alt="">
             </div>
 
         </div>
@@ -158,7 +163,7 @@ getTopPage();
 
     <br />
 
-    <h1 style="text-align: center; color: #EB356D; margin-bottom: 25px;">
+    <h1 style="text-align: center; color: #c71352; margin-bottom: 25px; margin-top: 26px;">
         TEMAS ANTERIORES DA REDAÇÃO DO ENEM
     </h1>
 
@@ -173,23 +178,6 @@ getTopPage();
             <li><strong>2017</strong> - Desafios para a formação educacional de surdos no Brasil.</li>
         </ul>
     </div>
-    <!-- Alt -->
-    <h2 style="margin-top: 25px;">Alternativo abaixo</h2>
-    <div class="container">
-        <div class="row">
-
-            <div class="col-2">
-                <h2 style="font-weight: bold;">> 2022:</h3>
-            </div>
-
-            <div class="col-10">
-                <p style="font-size: 27px;">
-                    Desafios para a valorização de comunidade e povos tradicionais no Brasil.
-                </p>
-            </div>
-
-        </div>
-    </div>
 
     <!-- Fim dos temas -->
 
@@ -199,7 +187,7 @@ getTopPage();
 
     <!-- Conteúdos -->
 
-    <h1 id="gramatica" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
+    <h1 id="gramatica" style="text-align: center; color: #c71352; margin-bottom: 15px;">
         GRAMÁTICA
     </h1>
 
@@ -210,7 +198,7 @@ getTopPage();
 
             <div class="col-1">
                 <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/d_temas_icon.png" alt="" width="40" height="40">
                 </p>
             </div>
 
@@ -229,7 +217,7 @@ getTopPage();
 
             <div class="col-1" style="margin-top: 38px;">
                 <p style="text-align: center;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/d_temas_icon.png" alt="" width="40" height="40">
                 </p>
             </div>
 
@@ -250,7 +238,7 @@ getTopPage();
 
             <div class="col-1">
                 <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/d_temas_icon.png" alt="" width="40" height="40">
                 </p>
             </div>
 
@@ -267,7 +255,7 @@ getTopPage();
 
             <div class="col-1" style="margin-top: 30px;">
                 <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/d_temas_icon.png" alt="" width="40" height="40">
                 </p>
             </div>
 
@@ -287,7 +275,7 @@ getTopPage();
 
             <div class="col-1" style="margin-top: 25px;">
                 <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/d_temas_icon.png" alt="" width="40" height="40">
                 </p>
             </div>
 
@@ -308,7 +296,7 @@ getTopPage();
 
             <div class="col-1">
                 <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/d_temas_icon.png" alt="" width="40" height="40">
                 </p>
             </div>
 
@@ -326,7 +314,7 @@ getTopPage();
 
             <div class="col-1">
                 <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/d_temas_icon.png" alt="" width="40" height="40">
                 </p>
             </div>
 
@@ -344,7 +332,7 @@ getTopPage();
 
             <div class="col-1">
                 <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/d_temas_icon.png" alt="" width="40" height="40">
                 </p>
             </div>
 
@@ -363,7 +351,7 @@ getTopPage();
 
             <div class="col-1" style="margin-top: 25px;">
                 <p style="text-align: center; margin-top: 15px;">
-                    <img src="img/icon1.png" alt="" width="40" height="40">
+                    <img src="img/d_temas_icon.png" alt="" width="40" height="40">
                 </p>
             </div>
 
@@ -382,7 +370,7 @@ getTopPage();
 
 
     <!-- Estrutura de Redação -->
-    <h1 id="estrutura" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
+    <h1 id="estrutura" style="text-align: center; color: #c71352; margin-bottom: 15px;">
         ESTRUTURA DE REDAÇÃO
     </h1>
 
@@ -523,7 +511,7 @@ getTopPage();
 
     <style>
         .accordion-button:not(.collapsed) {
-            background-color: #24007D;
+            background-color: #200F38;
             color: white;
         }
     </style>
@@ -533,7 +521,7 @@ getTopPage();
 
 
     <!-- Competências avaliativas -->
-    <h1 id="competencias" style="text-align: center; color: #EB356D; margin-bottom: 15px;">
+    <h1 id="competencias" style="text-align: center; color: #c71352; margin-bottom: 15px; margin-top: 28px;">
         COMPETÊNCIAS AVALIATIVAS
     </h1>
 
@@ -544,7 +532,7 @@ getTopPage();
         <div class="row">
 
             <div class="col-md-2" style="padding: 20px;">
-                <p style="border: 4px solid #EB356D; background-color: #380058;
+                <p style="border-radius: 5px; background-color: #200F38;
                     font-size: 100px; text-align: center; font-family: Impact; color: white;">
                     1.
                 </p>
@@ -561,7 +549,7 @@ getTopPage();
             </div>
 
             <div class="col-md-2" style="padding: 20px;">
-                <p style="border: 4px solid #EB356D; background-color: #41007d;
+                <p style="border-radius: 5px; background-color: #4b104b;
                     font-size: 100px; text-align: center; font-family: Impact; color: white;">
                     2.
                 </p>
@@ -582,7 +570,7 @@ getTopPage();
         <div class="row" style="margin-bottom: 20px;">
 
             <div class="col-md-2" style="padding: 20px;">
-                <p style="border: 4px solid #EB356D; background-color: #41007d;
+                <p style="border-radius: 5px; background-color: #4b104b;
                         font-size: 100px; text-align: center; font-family: Impact; color: white;">
                     3.
                 </p>
@@ -600,7 +588,7 @@ getTopPage();
             </div>
 
             <div class="col-md-2" style="padding: 20px;">
-                <p style="border: 4px solid #EB356D; background-color: #380058;
+                <p style="border-radius: 5px; background-color: #200F38;
                         font-size: 100px; text-align: center; font-family: Impact; color: white;">
                     4.
                 </p>
@@ -624,7 +612,7 @@ getTopPage();
             </div>
 
             <div class="col-md-2" style="padding: 20px;">
-                <p style="border: 4px solid #EB356D; background-color: #380058;
+                <p style="border-radius: 5px; background-color: #200F38;
                         font-size: 100px; text-align: center; font-family: Impact; color: white;">
                     5.
                 </p>
@@ -649,7 +637,7 @@ getTopPage();
     <br />
 
     <!-- Vestibulares -->
-    <h1 id="vestibulares" style="text-align: center; color: #EB356D; margin-bottom: 15px; margin-top: 15px;">
+    <h1 id="vestibulares" style="text-align: center; color: #c71352; margin-bottom: 15px; margin-top: 20px;">
         VESTIBULARES
     </h1>
 
@@ -661,24 +649,24 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="#">
-                        <img src="img/enem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem">
+                        <img src="img/d_enem_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="#">
-                        <img src="img/uel-logo2.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="https://portal.uel.br/home/">
+                        <img src="img/d_uel_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="#">
-                        <img src="img/vunest-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="https://www.vunesp.com.br/">
+                        <img src="img/d_vunesp_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -692,24 +680,24 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="#">
-                        <img src="img/uem-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="http://www.uem.br/">
+                        <img src="img/d_uem_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="#">
-                        <img src="img/fuvest-logo.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="https://www.fuvest.br/">
+                        <img src="img/d_fuvest_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="#">
-                        <img src="img/unicamp-logo2.png" alt="" style="border: 3px solid #EB356D;" width="300" height="300">
+                    <a href="https://www.unicamp.br/unicamp/">
+                        <img src="img/d_unicamp_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -721,7 +709,7 @@ getTopPage();
     <br />
 
     <h3 style="text-align: center;">
-        <a href="#" style="text-decoration: none; color: #EB356D;">
+        <a href="#" style="text-decoration: none; color: #c71352;">
             ^ Voltar ao topo ^
         </a>
     </h3>

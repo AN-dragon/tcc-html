@@ -12,10 +12,10 @@
 </head>
 
 <body>
-
+<!-- margin-top: 20px; margin-left: 20px; margin-right: 20px; -->
     <!--Cabeçalho-->
 <header>
-    <nav class="navbar" style="background-color: #bdbdbd; margin-top: 20px; margin-left: 20px; margin-right: 20px;" >
+    <nav class="navbar" style="background-color: #bdbdbd;" >
 
         <div class="container">
             <div class="row">

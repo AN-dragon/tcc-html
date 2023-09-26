@@ -13,7 +13,7 @@ getTopPage();
       <div class="row">
          <div class="col-5" style="margin-top: 20px;">
             <p>
-               <img src="img/carla.png" alt="teste"
+               <img src="img/s_carla.png" alt=""
                 style="border: 1px solid #EB356D; border-radius: 16px;"
                 width="450" height="250">
             </p>

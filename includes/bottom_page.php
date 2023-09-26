@@ -40,19 +40,19 @@
             <ul class="nav">
                 <li class="nav-item" style="margin-right: 20px;">
                     <a href="#" style="text-decoration: none; color: white; margin-top: 20px;">
-                            <img src="img/brand-instagram.png" alt="Instagram" width="50" height="50">
+                            <img src="img/rod_instagram.png" alt="Instagram" width="50" height="50">
                     </a>
                 </li>
 
                 <li class="nav-item" style="margin-right: 20px;">
                     <a href="sobre.php" style="text-decoration: none; color: white;">
-                        <img src="img/brand-whatsapp.png" alt="Whatsapp" width="50" height="50">
+                        <img src="img/rod_whatsapp.png" alt="Whatsapp" width="50" height="50">
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="#" style="text-decoration: none; color: white;">
-                        <img src="img/brand-tiktok.png" alt="TikTok" width="50" height="50">
+                        <img src="img/rod_tiktok.png" alt="TikTok" width="50" height="50">
                     </a>
                 </li>
             </ul>

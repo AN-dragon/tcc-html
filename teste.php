@@ -90,6 +90,8 @@ getTopPage();
         <button class="next"></button>
   </div>
 
+  
+
   <script>
     const prevButton = document.querySelector('.prev');
     const nextButton = document.querySelector('.next');
@@ -110,7 +112,25 @@ getTopPage();
       const cardWidth = carousel.querySelector('.card').offsetWidth;
       carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
     }
-  </script>
+    
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % carousel.children.length;
+    updateCarouselPosition();
+  }
+
+  function startAutoSlide() {
+    timer = setInterval(nextSlide, 3000); // Troque 3000ms pelo intervalo desejado (3 segundos neste exemplo)
+  }
+
+  function stopAutoSlide() {
+    clearInterval(timer);
+  }
+
+  carousel.addEventListener("mouseenter", stopAutoSlide);
+  carousel.addEventListener("mouseleave", startAutoSlide);
+
+  startAutoSlide();
+</script>
     <!-- Fim do carrossel -->
 
     <br />
@@ -225,6 +245,24 @@ getTopPage();
     .carousel-container button.next::before {
       content: '\2192'; /* Código Unicode da seta direita */
     }
+
+    .carousel-container {
+            display: flex;
+            overflow: hidden;
+            width: 300px; /* Ajuste este valor para o tamanho desejado */
+            height: 200px; /* Ajuste este valor para o tamanho desejado */
+            position: relative;
+        }
+
+        .carousel-slide {
+            min-width: 100%;
+            transition: transform 0.4s ease-in-out;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 
 </style>
 
