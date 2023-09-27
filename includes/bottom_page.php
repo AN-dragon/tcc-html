@@ -13,19 +13,25 @@
 
     <!-- 2º Coluna -->
         <div class="col-4">
-            <h2 style="color: white; font-family: Century Gothic;">Ajuda</h2>
+            <h2 style="color: white; font-family: Century Gothic;">
+                Ajuda
+            </h2>
 
             <ul style="list-style:none; padding-left: 0;">
                 <li>
-                    <h5><a href="sobre.php" style="text-decoration: none; color: white; font-family: Century Gothic">
-                        Central de ajuda
-                    </a></h5>
+                    <h5>
+                        <a href="sobre.php" style="text-decoration: none; color: white; font-family: Century Gothic">
+                            Central de ajuda
+                        </a>
+                    </h5>
                 </li>
 
                 <li>
-                    <h5><a href="sobre.php" style="text-decoration: none; color: white; font-family: Century Gothic">
-                        Fale com a B&B Redações
-                    </a></h5>
+                    <h5>
+                        <a href="sobre.php" style="text-decoration: none; color: white; font-family: Century Gothic">
+                            Fale com a B&B Redações
+                        </a>
+                    </h5>
                 </li>
 
             </ul>
@@ -34,7 +40,9 @@
     <!-- 3º Coluna -->
     <div class="col-4">
 
-            <h2 style="color: white; font-family: Century Gothic; margin-right: 90px;">Redes Sociais</h2>
+            <h2 style="color: white; font-family: Century Gothic; margin-right: 90px;">
+                Redes Sociais
+            </h2>
 
             <!-- Redes Sociais -->
             <ul class="nav">

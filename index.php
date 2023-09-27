@@ -8,12 +8,14 @@ getTopPage();
 
     <!-- Imagem de introdução -->
     <p style="text-align: center; margin-bottom: 65px;">
-        <img src="img/home_img9.png" alt="Bem-vindo ao site!" width="100%" height="50%">
+        <img src="img/home_img1.png" alt="Bem-vindo ao site!" width="100%" height="50%">
     </p>
 
     <br />
 
-    <h2 style="text-align: center; font-size;">Conheça a nota dos nossos alunos e suas aprovações:</h2>
+    <h2 style="text-align: center; font-size; font-family: Century Gothic;">
+        Conheça a nota dos nossos alunos e suas aprovações:
+    </h2>
 
     <br />
 
@@ -115,7 +117,9 @@ getTopPage();
 
     <br />
 
-    <h2 style="text-align: center; margin-top: 50px;"> Por que estudar com Beloto & Beloto Redações?</h2>
+    <h2 style="text-align: center; margin-top: 50px; font-family: Century Gothic;">
+        Por que estudar com Beloto & Beloto Redações?
+    </h2>
 
     <br />
 

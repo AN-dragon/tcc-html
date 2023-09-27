@@ -190,7 +190,7 @@ getTopPage();
     <br />
 
 
-    <!-- [] Conteúdos -->
+    <!-- [] Gramática -->
 
     <h1 id="gramatica" style="text-align: center; color: #c71352; margin-bottom: 15px; font-family: Century Gothic;">
         GRAMÁTICA
@@ -248,7 +248,7 @@ getTopPage();
             </div>
 
             <div class="col-11">
-                <p style="font-size: 26px; text-align: justify;">
+                <p style="font-size: 26px; text-align: justify; font-family: Century Gothic;">
                     Não inicie suas frases da mesma maneira, principalmente àquelas que dão início aos parágrafos.
                 </p>
             </div>
@@ -265,7 +265,7 @@ getTopPage();
             </div>
 
             <div class="col-11">
-                <p style="font-size: 26px; text-align: justify;">
+                <p style="font-size: 26px; text-align: justify; font-family: Century Gothic;">
                     Outro erro muito comum entre os estudantes, é mudança dos tempos verbais dentro da mesma frase. A
                     conjugação dos
                     verbos deve estar de acordo com o tempo que está sendo referido, por isso, preste sempre atenção
@@ -285,7 +285,7 @@ getTopPage();
             </div>
 
             <div class="col-11">
-                <p style="font-size: 26px; text-align: justify;">
+                <p style="font-size: 26px; text-align: justify; font-family: Century Gothic;">
                     Evite falar de temas paralelos ao que você está pensando. Além de te confundir na hora de elaborar o
                     seu texto, você
                     pode acabar fugindo do tema ao começar a acrescentar fatos desnecessários e que não estejam
@@ -306,7 +306,7 @@ getTopPage();
             </div>
 
             <div class="col-11">
-                <p style="font-size: 26px; text-align: justify;">
+                <p style="font-size: 26px; text-align: justify; font-family: Century Gothic;">
                     Não utilize muitas hipérboles em sua redação, isto pode soar exagerado e dar informalidade ao seu
                     texto. (Exemplo: Super, mega, hiper).
                 </p>
@@ -324,7 +324,7 @@ getTopPage();
             </div>
 
             <div class="col-11">
-                <p style="font-size: 26px; text-align: justify;">
+                <p style="font-size: 26px; text-align: justify; font-family: Century Gothic;">
                     Procure sempre criar frases completas e que tenham sentido. Períodos curtos e desnecessários podem
                     empobrecer gramaticalmente o seu texto.
                 </p>
@@ -342,7 +342,7 @@ getTopPage();
             </div>
 
             <div class="col-11">
-                <p style="font-size: 26px; text-align: justify;">
+                <p style="font-size: 26px; text-align: justify; font-family: Century Gothic;">
                     Preposições para conectar as suas ideias são importantes, mas devem ser dosadas. Em sua redação,
                     utilize sempre as
                     preposições em número limitado e cuidadosamente.
@@ -361,7 +361,7 @@ getTopPage();
             </div>
 
             <div class="col-11">
-                <p style="font-size: 26px; text-align: justify;">
+                <p style="font-size: 26px; text-align: justify; font-family: Century Gothic;">
                     Atente-se sempre na pontuação. A pontuação incorreta pode tirar pontos, por isso, pratique bastante
                     os seus usos
                     antes da prova, principalmente o uso da vírgula, que acaba confundindo muitos candidatos.
@@ -375,7 +375,7 @@ getTopPage();
 
 
     <!-- [] Estrutura de Redação -->
-    <h1 id="estrutura" style="text-align: center; color: #c71352; margin-bottom: 15px;">
+    <h1 id="estrutura" style="text-align: center; color: #c71352; margin-bottom: 15px; font-family: Century Gothic;">
         ESTRUTURA DE REDAÇÃO
     </h1>
 
@@ -390,7 +390,7 @@ getTopPage();
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                         aria-controls="panelsStayOpen-collapseOne">
-                        <h3>
+                        <h3 style="font-family: Century Gothic;">
                             1. Introdução
                         </h3>
                     </button>
@@ -399,7 +399,7 @@ getTopPage();
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                     aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
-                        <p style="font-size: 21px;">
+                        <p style="font-size: 21px; font-family: Century Gothic;">
                             A introdução é o primeiro contato que o leitor tem com o texto. No primeiro parágrafo, é
                             apresentado a ideia principal das questões para ser abordado na redação. É nessa hora que o
                             leitor terá uma dimensão geral do assunto e vai entender as razões pelas quais a discussão
@@ -408,19 +408,28 @@ getTopPage();
 
                         <br />
 
-                        <h3 style="font-weight: bold;">Contextualização:</h3> 
-                        <p style="font-size: 21px;">
+                        <h3 style="font-weight: bold; font-family: Century Gothic;">
+                            Contextualização:
+                        </h3> 
+
+                        <p style="font-size: 21px; font-family: Century Gothic;">
                             Onde você deve dar uma visão geral, mais abrangente, antes de chegar no tema.
                         </p>
 
-                        <h3 style="font-weight: bold;">Problema:</h3> 
-                        <p style="font-size: 21px;">
+                        <h3 style="font-weight: bold; font-family: Century Gothic;">
+                            Problema:
+                        </h3> 
+
+                        <p style="font-size: 21px; font-family: Century Gothic;">
                             Onde você apresenta sobre o que se trata o texto especificamente, e faz a conexão
                             com a contextualização.
                         </p>
 
-                        <h3 style="font-weight: bold;">Tese:</h3>
-                        <p style="font-size: 21px;">
+                        <h3 style="font-weight: bold; font-family: Century Gothic;">
+                            Tese:
+                        </h3>
+
+                        <p style="font-size: 21px; font-family: Century Gothic;">
                             Onde você apresenta o argumento principal que pretende defender ao longo da sua
                             redação.
                         </p>
@@ -436,7 +445,7 @@ getTopPage();
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                         aria-controls="panelsStayOpen-collapseTwo">
-                        <h3>
+                        <h3 style="font-family: Century Gothic;">
                             2. Desenvolvimento
                         </h3>
                     </button>
@@ -445,7 +454,7 @@ getTopPage();
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                     aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body">
-                        <p style="font-size: 21px;">
+                        <p style="font-size: 21px; font-family: Century Gothic;">
                             Essa parte da estrutura é o momento do texto no qual você vai desenvolver as ideias que foram apresentadas na
                             introdução. É aqui o momento de argumentar a favor do ponto que você está defendendo, e utilizar a exemplificação para
                             acrescentar valor ao seu texto.
@@ -454,7 +463,7 @@ getTopPage();
                             Ele pode ser dividido em 4 ou 5 períodos:
                         </p>
 
-                        <ul style="list-style-type: square; font-size: 21px;">
+                        <ul style="list-style-type: square; font-size: 21px; font-family: Century Gothic;">
                             <li>Retornar ao argumento;</li>
                             <li>Defender o argumento com o repertório;</li>
                             <li>Fazer o aprofundamento da argumentação;</li>
@@ -473,7 +482,7 @@ getTopPage();
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                         aria-controls="panelsStayOpen-collapseThree">
-                        <h3>
+                        <h3 style="font-family: Century Gothic;">
                             3. Conclusão e Proposta de Intervenção
                         </h3>
                     </button>
@@ -482,21 +491,23 @@ getTopPage();
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                     aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body">
-                        <p style="font-size: 21px;">
+                        <p style="font-size: 21px; font-family: Century Gothic;">
                             A conclusão é onde você deve apresentar uma solução para os problemas expostos nos parágrafos acima. Esse é o momento
                             para concluir todas as suas ideias e, mais do que isso, propor uma medida de intervenção para a questão principal
                             levantada no texto. Pode ser dividido em 3 ou 4 períodos:
                         </p>
 
-                        <ul style="list-style-type: square; font-size: 21px;">
+                        <ul style="list-style-type: square; font-size: 21px; font-family: Century Gothic;">
                             <li>Retomar os objetivos da sua redação;</li>
                             <li>Colocar os cincos elementos da Proposta de Intervenção;</li>
                             <li>Fechamento do texto com uma frase de efeito.</li>
                         </ul>
 
-                        <h3>Proposta de Intervenção</h3>
+                        <h3 style="font-family: Century Gothic;">
+                            Proposta de Intervenção
+                        </h3>
 
-                        <ul style="list-style-type: none; font-size: 21px;">
+                        <ul style="list-style-type: none; font-size: 21px; font-family: Century Gothic;">
                             <li>- <strong>Ação</strong> (o quê?)</li>
                             <li>- <strong>Agente</strong> (quem?)</li>
                             <li>- <strong>Efeito</strong> (para quê?)</li>
@@ -526,7 +537,7 @@ getTopPage();
 
 
     <!-- [] Competências avaliativas -->
-    <h1 id="competencias" style="text-align: center; color: #c71352; margin-bottom: 15px; margin-top: 28px;">
+    <h1 id="competencias" style="text-align: center; color: #c71352; margin-bottom: 15px; margin-top: 28px; font-family: Century Gothic;">
         COMPETÊNCIAS AVALIATIVAS
     </h1>
 
@@ -544,7 +555,7 @@ getTopPage();
             </div>
 
             <div class="col-md-3" style="padding: 20px;">
-                <p style="text-align: justify; font-size: 22px;">
+                <p style="text-align: justify; font-size: 22px; font-family: Century Gothic;">
                     Demonstrar domínio da modalidade escrita formal da língua portuguesa.
                 </p>
             </div>
@@ -561,7 +572,7 @@ getTopPage();
             </div>
 
             <div class="col-md-4" style="padding: 20px;">
-                <p style="text-align: justify; font-size: 22px;">
+                <p style="text-align: justify; font-size: 22px; font-family: Century Gothic;">
                     Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para
                     desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa.
                 </p>
@@ -582,7 +593,7 @@ getTopPage();
             </div>
 
             <div class="col-md-3" style="padding: 20px;">
-                <p style="text-align: justify; font-size: 22px;">
+                <p style="text-align: justify; font-size: 22px; font-family: Century Gothic;">
                     Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa
                     de um ponto de vista.
                 </p>
@@ -600,7 +611,7 @@ getTopPage();
             </div>
 
             <div class="col-md-4" style="padding: 20px;">
-                <p style="text-align: justify; font-size: 22px;">
+                <p style="text-align: justify; font-size: 22px; font-family: Century Gothic;">
                     Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação.
                 </p>
             </div>
@@ -624,7 +635,7 @@ getTopPage();
             </div>
 
             <div class="col-5" style="padding: 20px;">
-                <p style="text-align: justify; font-size: 22px;">
+                <p style="text-align: justify; font-size: 22px; font-family: Century Gothic;">
                     Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos.
                 </p>
             </div>
@@ -643,7 +654,7 @@ getTopPage();
 
 
     <!-- [] Vestibulares -->
-    <h1 id="vestibulares" style="text-align: center; color: #c71352; margin-bottom: 15px; margin-top: 20px;">
+    <h1 id="vestibulares" style="text-align: center; color: #c71352; margin-bottom: 15px; margin-top: 20px; font-family: Century Gothic;">
         VESTIBULARES
     </h1>
 
@@ -656,7 +667,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem">
-                        <img src="img/d_enem_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_enem_logo.png" alt="ENEM" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -664,7 +675,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="https://portal.uel.br/home/">
-                        <img src="img/d_uel_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_uel_logo.png" alt="UEL" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -672,7 +683,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="https://www.vunesp.com.br/">
-                        <img src="img/d_vunesp_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_vunesp_logo.png" alt="VUNESP" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -687,7 +698,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="http://www.uem.br/">
-                        <img src="img/d_uem_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_uem_logo.png" alt="UEM" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -695,7 +706,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="https://www.fuvest.br/">
-                        <img src="img/d_fuvest_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_fuvest_logo.png" alt="FUVEST" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -703,7 +714,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="https://www.unicamp.br/unicamp/">
-                        <img src="img/d_unicamp_logo.png" alt="" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_unicamp_logo.png" alt="UNICAMP" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -716,7 +727,7 @@ getTopPage();
 
     
     <h3 style="text-align: center;">
-        <a href="#" style="text-decoration: none; color: #c71352;">
+        <a href="#" style="text-decoration: none; color: #c71352; font-family: Century Gothic;">
             ^ Voltar ao topo ^
         </a>
     </h3>
