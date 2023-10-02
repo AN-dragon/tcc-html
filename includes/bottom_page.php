@@ -47,7 +47,8 @@
             <!-- Redes Sociais -->
             <ul class="nav">
                 <li class="nav-item" style="margin-right: 20px;">
-                    <a href="#" style="text-decoration: none; color: white; margin-top: 20px;">
+                    <a href="https://www.instagram.com/belotoebelotoredacoes/" 
+                       style="text-decoration: none; color: white; margin-top: 20px;" target="_blank">
                             <img src="img/rod_instagram.png" alt="Instagram" width="50" height="50">
                     </a>
                 </li>
@@ -59,7 +60,8 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" style="text-decoration: none; color: white;">
+                    <a href="https://www.tiktok.com/@profcarlabeloto" 
+                       style="text-decoration: none; color: white;" target="_blank">
                         <img src="img/rod_tiktok.png" alt="TikTok" width="50" height="50">
                     </a>
                 </li>

@@ -17,7 +17,7 @@ getTopPage();
         
         <div class="row">
             <div class="col-2">
-                <a href="#filmes"
+            <a href="#filmes"
                 style="text-decoration: none; text-align: center; color: black; font-family: Century Gothic;">
             
                 <h3 style="font-size: 21px;">Filmes e Séries</h3>
@@ -397,7 +397,7 @@ getTopPage();
 
 
     <!-- [] Citações Literárias -->
-            
+
             <h1 id="livros" style="text-align: center; color: #c71352; margin-top: 25px; font-family: Century Gothic;"> 
                 CITAÇÕES LITERÁRIAS 
             </h1>
@@ -413,6 +413,8 @@ getTopPage();
             
                     <div class="col-11">
                         <h3> Quarto de despejo (1960) </h3>
+                        <h5 style="color: gray; margin-left: 10px;">Escrito por Carolina Maria de Jesus</h5>
+
                         <p style="font-size: 20px; text-align: justify; font-family: Century Gothic;"> 
                             Diário da catadora de papel Carolina Maria de Jesus que
                             originou esse livro, que descreve o cotidiano da favela Canindé, em São Paulo, revelando as tristezas do
@@ -441,6 +443,7 @@ getTopPage();
             
                     <div class="col-11">
                         <h3> Capitães da Areia (1937) </h3>
+                        <h5 style="color: gray; margin-left: 10px;">Escrito por Jorge Amado</h5>
 
                         <p style="font-size: 20px; text-align: justify; font-family: Century Gothic;"> 
                             Relata a vida de um grupo de meninos abandonados e
@@ -469,6 +472,7 @@ getTopPage();
             
                     <div class="col-11">
                         <h3> O Cortiço (1890) </h3>
+                        <h5 style="color: gray; margin-left: 10px;">Escrito por Aluísio Azevedo</h5>
 
                         <p style="font-size: 20px; text-align: justify; font-family: Century Gothic;"> 
                             A história relata a vida dos moradores de um cortiço do
@@ -499,6 +503,7 @@ getTopPage();
             
                     <div class="col-11">
                         <h3> O Ateneu (1888) </h3>
+                        <h5 style="color: gray; margin-left: 10px;">Escrito por Raul Pompeia</h5>
 
                         <p style="font-size: 20px; text-align: justify; font-family: Century Gothic;"> 
                             Sergio recorda suas experiências no colégio interno do Rio
@@ -528,6 +533,7 @@ getTopPage();
             
                     <div class="col-11">
                         <h3> Vidas Secas (1938) </h3>
+                        <h5 style="color: gray; margin-left: 10px;">Escrito por Graciliano Ramos</h5>
 
                         <p style="font-size: 20px; text-align: justify; font-family: Century Gothic;"> 
                             Conta a vida de uma família nordestina que precisa se
@@ -550,7 +556,6 @@ getTopPage();
             
             <div class="container">
                 <div class="row" style="margin-top: 21px; margin-bottom: 21px;">
-            
                     <div class="col-1" style="margin-top: 30px;">
                         <p style="text-align: center; margin-top: 15px;">
                             <img src="img-repertorio/casmurro.jpg" alt="" width="100" height="155">
@@ -559,6 +564,7 @@ getTopPage();
             
                     <div class="col-11">
                         <h3> Dom Casmurro (1899) </h3>
+                        <h5 style="color: gray; margin-left: 10px;">Escrito por Machado de Assis</h5>
 
                         <p style="font-size: 20px; text-align: justify; font-family: Century Gothic;"> 
                             Bento Santiago narra sua história do amor desesperançosa

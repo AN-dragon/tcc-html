@@ -666,7 +666,7 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem">
+                    <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem" target="_blank">
                         <img src="img/d_enem_logo.png" alt="ENEM" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
@@ -674,7 +674,7 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="https://portal.uel.br/home/">
+                    <a href="https://portal.uel.br/home/" target="_blank">
                         <img src="img/d_uel_logo.png" alt="UEL" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
@@ -682,7 +682,7 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="https://www.vunesp.com.br/">
+                    <a href="https://www.vunesp.com.br/" target="_blank">
                         <img src="img/d_vunesp_logo.png" alt="VUNESP" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
@@ -697,7 +697,7 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="http://www.uem.br/">
+                    <a href="http://www.uem.br/" target="_blank">
                         <img src="img/d_uem_logo.png" alt="UEM" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
@@ -705,7 +705,7 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="https://www.fuvest.br/">
+                    <a href="https://www.fuvest.br/" target="_blank">
                         <img src="img/d_fuvest_logo.png" alt="FUVEST" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
@@ -713,7 +713,7 @@ getTopPage();
 
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
-                    <a href="https://www.unicamp.br/unicamp/">
+                    <a href="https://www.unicamp.br/unicamp/" target="_blank">
                         <img src="img/d_unicamp_logo.png" alt="UNICAMP" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
                     </a>
                 </p>
