@@ -8,7 +8,9 @@ getTopPage();
 
     <!-- Imagem de introdução -->
     <p style="text-align: center; margin-bottom: 65px;">
-        <img src="img/home_img1.png" alt="Bem-vindo ao site!" width="100%" height="50%">
+        <a href="#ssite">
+            <img src="img/home_img1.png" alt="Bem-vindo ao site!" width="100%" height="50%">
+        </a>
     </p>
 
     <br />
@@ -125,7 +127,7 @@ getTopPage();
 
 
     <!--  Quadros -->
-    <div class="container">
+    <div class="container" id="ssite">
         <!-- Primeira linha -->
         <div class="row">
 

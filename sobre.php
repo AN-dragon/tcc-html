@@ -25,9 +25,10 @@ getTopPage();
             </h2>
 
             <p style="font-size: 23px; text-align: justify; font-family: Century Gothic;">
-               A profissional Carla Beloto, é formada em Letras: Português e em inglês, tendo três especializações: em
-               psicopedagogia, gestão educacional e pós-graduação em produção textual na Unesp de Assis. Atua na sua área de
-               professora tem mais de 12 anos e possui sua própria empresa Beloto & Beloto Redações. 
+               A profissional Carla Beloto, é formada em Letras: Português e em Inglês, tendo três especializações: em
+               Psicopedagogia, Gestão Educacional e Pós-graduação em Produção Textual na Unesp de Assis. Com mais de 12 anos
+               de experiência na área, ela atua na sua área de professora tem mais de 12 anos e possui sua própria empresa 
+               Beloto & Beloto Redações. 
             </p>
          </div>
 
