@@ -5,6 +5,13 @@ getTopPage();
 ?>
 
 <main>
+
+    <div style="position: fixed; background-color: #c4c4c4; opacity: 0.7; bottom: 5%; right: 5%; padding: 9px; border-radius: 2px;">
+        <a href="#">
+            <img src="img/setaalt.png" alt="" width="60px" height="60px;">
+        </a>
+    </div>
+
     <!-- Introdução -->
     <p style="text-align: center; margin-bottom: 5px;">
         <img src="img-repertorio/rp_intro.png" alt="" width="100%" height="50%">
