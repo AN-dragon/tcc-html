@@ -19,53 +19,78 @@ getTopPage();
 
     <br />
 
+    <!-- Quadros listando os tópicos -->
     <div class="container" style="margin-top: 5px;">
         <hr>
         
         <div class="row">
             <div class="col-2">
-            <a href="#filmes"
-                style="text-decoration: none; text-align: center; color: black; font-family: Century Gothic;">
-            
-                <h3 style="font-size: 21px;">Filmes e Séries</h3>
-            
-                </a>
-            </div>
+                <p style="text-align: center">
 
-            <div class="col-1">
-                <a href="#livros"
-                style="text-decoration: none; text-align: center; color: black; font-family: Century Gothic;">
-            
-                <h3 style="font-size: 21px;">Livros</h3>
-            
-                </a>
+                    <a href="#livros"
+                        style="text-decoration: none; color: black; font-family: Century Gothic;">
+    
+                        <img src="img/d_temas_icon.png" alt="" width="50px" height="50px">
+                    
+                        <h3 class="dvRepText">Livros</h3>
+                    
+                    </a>
+                </p>
             </div>
 
             <div class="col-2">
-                <a href="#citações-h"
-                style="text-decoration: none; text-align: center; color: black; font-family: Century Gothic;">
+                <p style="text-align:center">
+                    <a href="#citações-h"
+                        style="text-decoration: none; color: black; font-family: Century Gothic;">
             
-                <h3 style="font-size: 21px;">Citações Históricas</h3>
+                        <img src="img/r_historia_icon.png" alt="" width="50px" height="50px">
+                        
+                        <h3 class="dvRepText">Históricas</h3>
             
-                </a>
-            </div>
-
-            <div class="col-4">
-                <a href="#citações-fs"
-                style="text-decoration: none; text-align: center; color: black; font-family: Century Gothic;">
-            
-                <h3 style="font-size: 21px;">Citações Filosóficas/Sociológicas</h3>
-            
-                </a>
+                    </a>
+                </p>
             </div>
 
             <div class="col-3">
-                <a href="#coringas"
-                style="text-decoration: none; text-align: center; color: black; font-family: Century Gothic;">
+                <p style="text-align: center;">
+                
+                    <a href="#citações-fs"
+                        style="text-decoration: none; color: black; font-family: Century Gothic;">
             
-                <h3 style="font-size: 21px;">Repertórios Coringas</h3>
+                        <img src="img/r_filosocio_icon.png" alt="" width="50px" height="50px">
+                        
+                        <h3 class="dvRepText">Filosóficas/Sociológicas</h3>
             
-                </a>
+                    </a>
+                </p>
+            </div>
+
+            <div class="col-2">
+                <p style="text-align: center">
+
+                    <a href="#filmes"
+                        style="text-decoration: none; color: black; font-family: Century Gothic;">
+            
+                        <img src="img/r_filme_icon.png" alt="" width="50px" height="50px">
+
+                        <h3 class="dvRepText">Filmes e Séries</h3>
+            
+                    </a>
+                </p>
+            </div>
+
+            <div class="col-3">
+                <p style="text-align:center">
+
+                    <a href="#coringas"
+                        style="text-decoration: none; color: black; font-family: Century Gothic;">
+            
+                        <img src="img/r_coringa_icon.png" alt="" width="50px" height="50px">
+                
+                        <h3 class="dvRepText">Repertórios Coringas</h3>
+            
+                    </a>
+                </p>
             </div>
 
         </div>
@@ -970,14 +995,17 @@ getTopPage();
                 </div>
 
             </div>
-        </div> 
-
-    <h3 style="text-align: center;">
-        <a href="#" style="text-decoration: none; color: #c71352; font-family: Century Gothic;">
-            ^ Voltar ao topo ^
-        </a>
-    </h3>
-
+        </div>
+        
 </main>
+
+<style>
+            .dvRepText {
+            text-align: center;
+            font-family: Century Gothic;
+            font-weight: bold;
+            font-size: 21px;
+        }
+</style>
 
 <?php getBottomPage() ?>

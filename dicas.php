@@ -732,15 +732,6 @@ getTopPage();
 
     <br />
 
-    
-    <h3 style="text-align: center;">
-        <a href="#" style="text-decoration: none; color: #c71352; font-family: Century Gothic;">
-            ^ Voltar ao topo ^
-        </a>
-    </h3>
-
-    <br />
-
     <style>
         .dvText {
             text-align: center;
