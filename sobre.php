@@ -15,7 +15,7 @@ getTopPage();
             <p>
                <img src="img/s_carla.png" alt="Carla"
                 style="border: 1px solid #EB356D; border-radius: 16px;"
-                width="450" height="250">
+                width="450" height="290">
             </p>
          </div>
 
@@ -42,7 +42,7 @@ getTopPage();
       <div class="row">
          <div class="col-9">
 
-               <p style="font-size: 23px; text-align: justify; margin-top: 100px; font-family: Century Gothic;">
+               <p style="font-size: 23px; text-align: justify; margin-top: 60px; font-family: Century Gothic;">
                   A escola de redação oferece aulas presenciais e remotas, ajudando os alunos a
                   desenvolverem suas habilidades na escrita dissertativa-argumentativa, com apoio
                   de materiais e temas.
@@ -88,17 +88,13 @@ getTopPage();
 
 
          <div class="col-3" style="margin-top: 20px;">
-            <p>
-               <img src="img/s_sala1.jpg" alt="Sala"
-               style="border: 1px solid black; border-radius: 16px;" 
-               width="460" height="300">
-            </p>
+
          </div>
 
       </div>
    </div>
 
-   <div class="container" style="margin-top: 10px;">
+   <div class="container" style="margin-top: 5px;">
       <div class="row">
 
          <div class="col-1">
@@ -106,10 +102,9 @@ getTopPage();
          </div>
 
          <div class="col-2">
-            <img src="img/s_sala2.jpg" alt="Sala de Palmital"
+            <img src="img/s_sala1.jpg" alt="Sala de Palmital"
                style="border: 1px solid black; border-radius: 16px;"
                width="460" height="300">
-               <p style="color: grey;">Sala de Palmital</p>
          </div>
 
          <div class="col-4">
@@ -120,7 +115,6 @@ getTopPage();
          <img src="img/s_sala2.jpg" alt="Sala de Assis"
             style="border: 1px solid black; border-radius: 16px;"
             width="460" height="300">
-            <p style="color: grey;">Sala de Assis</p>
          </div>
 
       </div>

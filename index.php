@@ -53,19 +53,11 @@ getTopPage();
             </div>
 
             <div class="card">
-                <img src="img/hp_carrossel_rosa6.png" alt="">
-            </div>
-
-            <div class="card">
                 <img src="img/hp_carrossel_roxo3.png" alt="">
             </div>
 
             <div class="card">
                 <img src="img/hp_carrossel_rosa7.png" alt="">
-            </div>
-
-            <div class="card">
-                <img src="img/hp_carrossel_rosa8.png" alt="">
             </div>
 
             <div class="card">

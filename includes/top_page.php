@@ -36,7 +36,7 @@
              <a href="sobre.php" class="esp">Sobre</a>
              <a href="dicas.php"class="esp">Dicas</a>
              <a href="repertorios.php" class="esp">Repertórios</a>
-             <a href="#" class="esp">Blog</a>
+             <a href="https://belotoredacoes.blogspot.com/" target="_blank" class="esp">Blog</a>
 
     </nav>
 </header>
