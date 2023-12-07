@@ -9,6 +9,7 @@
         <?= $_title ?>
     </title>
     <link rel="stylesheet" href="css/bootstrap-5.3.1-dist/css/bootstrap.css">
+    <link rel="icon" href="img/logoRedonda.png" type="image/png" sizes="16x16">
 </head>
 
 <body>
