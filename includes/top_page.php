@@ -32,26 +32,35 @@
                 </div>
 
             </div>
-        </div>
+        <!-- </div> -->
 
+        <div class="col-md-auto">
              <a href="sobre.php" class="esp">Sobre</a>
              <a href="dicas.php"class="esp">Dicas</a>
              <a href="repertorios.php" class="esp">Repertórios</a>
              <a href="https://belotoredacoes.blogspot.com/" target="_blank" class="esp">Blog</a>
+        </div>
+</div>
 
     </nav>
 </header>
   
 
     <style>
-        .esp{
+        .esp {
             text-align: center;
-            margin-right: 45px;
-            font-size: 25px;
+            margin-right: 35px;
+            font-size: 24px;
             color: white;
             text-decoration: none;
             font-family: Century Gothic
             font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .esp:hover {
+            color: crimson;
+            transition: 0.2s ease-out;
         }
 
     </style>

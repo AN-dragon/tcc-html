@@ -111,7 +111,7 @@ getTopPage();
 
 
     <!-- [] Temas -->
-    <h1 id="temas" style="text-align: center; color: #c71352; font-family: Century Gothic;">
+    <h1 id="temas" class="titulos">
         TEMAS POSSÍVEIS DE REDAÇÃO
     </h1>
 
@@ -181,14 +181,14 @@ getTopPage();
     </h1>
 
     <div class="container" style="list-style-position: inside;">
-        <ul style="font-size: 29px; list-style-type: none; font-family: Century Gothic;">
-            <li><strong>2022</strong> - Desafios para a valorização de comunidade e povos tradicionais no Brasil.</li>
-            <li><strong>2021</strong> - Invisibilidade e registo civil: garantia de acesso á cidania no Brasil.</li>
-            <li><strong>2020</strong> - O estigma associado às doenças mentais na sociedade brasileira (tema do Enem impresso).</li>
-            <li><strong>2020</strong> - O desafio de reduzir as desigualdades entre as regiões do Brasil (tema do Enem digital).
-            <li><strong>2019</strong> - Democratização do acesso ao cinema no Brasil.</li>
-            <li><strong>2018</strong> - Manipulação do comportamento do usuário pelo controle de dados na Internet.</li>
-            <li><strong>2017</strong> - Desafios para a formação educacional de surdos no Brasil.</li>
+        <ul style="font-size: 26px; list-style-type: none; font-family: Century Gothic;">
+            <li class="temants"><strong>2022</strong> - Desafios para a valorização de comunidade e povos tradicionais no Brasil.</li>
+            <li class="temants"><strong>2021</strong> - Invisibilidade e registo civil: garantia de acesso á cidania no Brasil.</li>
+            <li class="temants"><strong>2020</strong> - O estigma associado às doenças mentais na sociedade brasileira (Enem impresso).</li>
+            <li class="temants"><strong>2020</strong> - O desafio de reduzir as desigualdades entre as regiões do Brasil (Enem digital).
+            <li class="temants"><strong>2019</strong> - Democratização do acesso ao cinema no Brasil.</li>
+            <li class="temants"><strong>2018</strong> - Manipulação do comportamento do usuário pelo controle de dados na Internet.</li>
+            <li class="temants"><strong>2017</strong> - Desafios para a formação educacional de surdos no Brasil.</li>
         </ul>
     </div>
 
@@ -737,6 +737,29 @@ getTopPage();
             text-align: center;
             font-family: Century Gothic;
             font-weight: bold;
+        }
+
+        .titulos {
+            text-align: center;
+            color: #c71352;
+            font-family: Century Gothic;
+        }
+        .titulos:hover {
+            color: #d54f7e;
+            transition: 0.2s;
+        }
+
+        .temants {
+            transition: 0.2s;
+        }
+        .temants:hover {
+            font-size: 28px;
+            border: 2px solid crimson;
+            border-radius: 3px;
+            padding: 2px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            transition: 0.2s ease-out;
         }
 
         /* Propriedades do Carrossel */

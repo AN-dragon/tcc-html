@@ -20,7 +20,7 @@
             <ul style="list-style:none; padding-left: 0;">
                 <li>
                     <h5>
-                        <a href="sobre.php" style="text-decoration: none; color: white; font-family: Century Gothic">
+                        <a href="sobre.php" class="footesp">
                             Central de ajuda
                         </a>
                     </h5>
@@ -28,7 +28,7 @@
 
                 <li>
                     <h5>
-                        <a href="sobre.php" style="text-decoration: none; color: white; font-family: Century Gothic">
+                        <a href="sobre.php" class="footesp">
                             Fale com a B&B Redações
                         </a>
                     </h5>
@@ -62,7 +62,7 @@
                 <li class="nav-item">
                     <a href="https://www.tiktok.com/@profcarlabeloto" 
                        style="text-decoration: none; color: white;" target="_blank">
-                        <img src="img/rod_tiktok_icon.png" alt="TikTok" width="40" height="40">
+                        <img src="img/rod_tiktok_icon.png" alt="TikTok" width="40" height="40" class="imgcor">
                     </a>
                 </li>
             </ul>
@@ -92,6 +92,23 @@
         </div>
     </nav>
 
+    <style>
+        .footesp {
+            text-decoration: none;
+            color: white;
+            font-family: Century Gothic;
+            transition: 0.2s;
+        }
+        .footesp:hover {
+            color: crimson;
+            transition: 0.2s ease-out;
+        }
+
+        .imgcor:hover {
+            filter: invert(15%) sepia(91%) saturate(3213%) hue-rotate(326deg) brightness(96%) contrast(99%);
+        }
+        
+    </style>
 </body>
 
 </html>
