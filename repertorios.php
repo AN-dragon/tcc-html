@@ -99,7 +99,7 @@ getTopPage();
 
 
     <!-- [] Filmes e Séries -->
-    <h1 id="filmes" style="text-align: center; color: #c71352; margin-top: 36px; font-family: Century Gothic;">
+    <h1 id="filmes" class="titulos">
         FILMES/SÉRIES/DOCUMENTÁRIO
     </h1>
 
@@ -440,7 +440,7 @@ getTopPage();
 
     <!-- [] Citações Literárias -->
 
-            <h1 id="livros" style="text-align: center; color: #c71352; margin-top: 25px; font-family: Century Gothic;"> 
+            <h1 id="livros" class="titulos"> 
                 CITAÇÕES LITERÁRIAS 
             </h1>
 
@@ -638,7 +638,7 @@ getTopPage();
 
     <!-- [] Citações Históricas -->
     
-    <h1 id="citações-h" style="text-align: center; color: #c71352; margin-top: 25px; font-family: Century Gothic;"> 
+    <h1 id="citações-h" class="titulos"> 
         CITAÇÕES HISTÓRICAS
     </h1>
 
@@ -741,7 +741,7 @@ getTopPage();
 
     <!-- [] Citações Filosóficas / Sociológicas  -->
     
-    <h1 id="citações-fs" style="text-align: center; color: #c71352; margin-top: 25px; font-family: Century Gothic;"> 
+    <h1 id="citações-fs" class="titulos"> 
         CITAÇÕES FILOSÓFICAS/SOCIOLÓGICAS 
     </h1>
     
@@ -967,7 +967,7 @@ getTopPage();
         
 
         <!-- [] Repertórios Coringas -->
-        <h1 id="coringas" style="text-align: center; color: #c71352; margin-top: 25px;"> 
+        <h1 id="coringas" class="titulos"> 
             REPERTÓRIOS CORINGAS 
         </h1>
     
@@ -1067,11 +1067,23 @@ getTopPage();
 </main>
 
 <style>
-            .dvRepText {
-            text-align: center;
-            font-family: Century Gothic;
-            font-weight: bold;
-            font-size: 21px;
+    /* Para os quadros listando as categorias de repertório */
+    .dvRepText {
+        text-align: center;
+        font-family: Century Gothic;
+        font-weight: bold;
+        font-size: 21px;
+        }
+
+    .titulos {
+        text-align: center;
+        color: #c71352;
+        font-family: Century Gothic;
+        transition: 0.2s;
+    }
+    .titulos:hover {
+        color: #dd6c93;
+        transition: 0.2s ease-out;
         }
 </style>
 

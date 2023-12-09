@@ -62,7 +62,7 @@
                 <li class="nav-item">
                     <a href="https://www.tiktok.com/@profcarlabeloto" 
                        style="text-decoration: none; color: white;" target="_blank">
-                        <img src="img/rod_tiktok_icon.png" alt="TikTok" width="40" height="40" class="imgcor">
+                        <img src="img/rod_tiktok_icon.png" alt="TikTok" width="40" height="40">
                     </a>
                 </li>
             </ul>
@@ -93,6 +93,7 @@
     </nav>
 
     <style>
+        /* Propriedades dos textos do rodapé */
         .footesp {
             text-decoration: none;
             color: white;
@@ -100,14 +101,9 @@
             transition: 0.2s;
         }
         .footesp:hover {
-            color: crimson;
+            color: #c71352;
             transition: 0.2s ease-out;
         }
-
-        .imgcor:hover {
-            filter: invert(15%) sepia(91%) saturate(3213%) hue-rotate(326deg) brightness(96%) contrast(99%);
-        }
-        
     </style>
 </body>
 

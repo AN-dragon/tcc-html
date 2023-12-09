@@ -35,10 +35,10 @@
         <!-- </div> -->
 
         <div class="col-md-auto">
-             <a href="sobre.php" class="esp">Sobre</a>
              <a href="dicas.php"class="esp">Dicas</a>
              <a href="repertorios.php" class="esp">Repertórios</a>
              <a href="https://belotoredacoes.blogspot.com/" target="_blank" class="esp">Blog</a>
+            <a href="sobre.php" class="esp">Sobre</a>        
         </div>
 </div>
 
@@ -47,6 +47,7 @@
   
 
     <style>
+        /* Propriedades dos textos do cabeçalho */
         .esp {
             text-align: center;
             margin-right: 35px;
@@ -59,7 +60,7 @@
         }
 
         .esp:hover {
-            color: crimson;
+            color: #c71352;
             transition: 0.2s ease-out;
         }
 

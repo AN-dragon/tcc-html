@@ -21,7 +21,7 @@ getTopPage();
             </div>
 
             <div class="col-4">
-                <h1 style="text-align: center; color: #c71352; font-family: Century Gothic;">
+                <h1 class="titulos">
                     CONHEÇA A METODOLOGIA
                 </h1>
             </div>
@@ -176,7 +176,7 @@ getTopPage();
 
     <br />
 
-    <h1 style="text-align: center; color: #c71352; margin-bottom: 25px; margin-top: 26px; font-family: Century Gothic;">
+    <h1 class="titulos">
         TEMAS ANTERIORES DA REDAÇÃO DO ENEM
     </h1>
 
@@ -199,7 +199,7 @@ getTopPage();
 
     <!-- [] Gramática -->
 
-    <h1 id="gramatica" style="text-align: center; color: #c71352; margin-bottom: 15px; font-family: Century Gothic;">
+    <h1 id="gramatica" class="titulos">
         GRAMÁTICA
     </h1>
 
@@ -382,7 +382,7 @@ getTopPage();
 
 
     <!-- [] Estrutura de Redação -->
-    <h1 id="estrutura" style="text-align: center; color: #c71352; margin-bottom: 15px; font-family: Century Gothic;">
+    <h1 id="estrutura" class="titulos">
         ESTRUTURA DE REDAÇÃO
     </h1>
 
@@ -544,7 +544,7 @@ getTopPage();
 
 
     <!-- [] Competências avaliativas -->
-    <h1 id="competencias" style="text-align: center; color: #c71352; margin-bottom: 15px; margin-top: 28px; font-family: Century Gothic;">
+    <h1 id="competencias" class="titulos">
         COMPETÊNCIAS AVALIATIVAS
     </h1>
 
@@ -661,7 +661,7 @@ getTopPage();
 
 
     <!-- [] Vestibulares -->
-    <h1 id="vestibulares" style="text-align: center; color: #c71352; margin-bottom: 15px; margin-top: 20px; font-family: Century Gothic;">
+    <h1 id="vestibulares" class="titulos">
         VESTIBULARES
     </h1>
 
@@ -674,7 +674,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem" target="_blank">
-                        <img src="img/d_enem_logo.png" alt="ENEM" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_enem_logo.png" alt="ENEM" class="vestimgs" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -682,7 +682,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="https://portal.uel.br/home/" target="_blank">
-                        <img src="img/d_uel_logo.png" alt="UEL" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_uel_logo.png" alt="UEL" class="vestimgs" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -690,7 +690,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="https://www.vunesp.com.br/" target="_blank">
-                        <img src="img/d_vunesp_logo.png" alt="VUNESP" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_vunesp_logo.png" alt="VUNESP" class="vestimgs" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -705,7 +705,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="http://www.uem.br/" target="_blank">
-                        <img src="img/d_uem_logo.png" alt="UEM" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_uem_logo.png" alt="UEM" class="vestimgs" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -713,7 +713,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="https://www.fuvest.br/" target="_blank">
-                        <img src="img/d_fuvest_logo.png" alt="FUVEST" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_fuvest_logo.png" alt="FUVEST" class="vestimgs" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -721,7 +721,7 @@ getTopPage();
             <div class="col-4" style="border-radius: 10px; padding: 20px;">
                 <p>
                     <a href="https://www.unicamp.br/unicamp/" target="_blank">
-                        <img src="img/d_unicamp_logo.png" alt="UNICAMP" style="border: 3px solid #c71352; border-radius: 5px;" width="300" height="300">
+                        <img src="img/d_unicamp_logo.png" alt="UNICAMP" class="vestimgs" width="300" height="300">
                     </a>
                 </p>
             </div>
@@ -733,6 +733,7 @@ getTopPage();
     <br />
 
     <style>
+        /* Para os quadros listando os tópicos */
         .dvText {
             text-align: center;
             font-family: Century Gothic;
@@ -743,22 +744,36 @@ getTopPage();
             text-align: center;
             color: #c71352;
             font-family: Century Gothic;
-        }
-        .titulos:hover {
-            color: #d54f7e;
             transition: 0.2s;
         }
+        .titulos:hover {
+            color: #dd6c93;
+            transition: 0.2s ease-out;
+        }
 
+        /* Para os temas de redações anteriores */
         .temants {
             transition: 0.2s;
         }
         .temants:hover {
             font-size: 28px;
-            border: 2px solid crimson;
+            border: 2px solid #200F38;
             border-radius: 3px;
             padding: 2px;
             margin-top: 2px;
             margin-bottom: 2px;
+            transition: 0.2s ease-out;
+        }
+
+        /* Para as imagens dos quadros dos []Vestibulares */
+        .vestimgs {
+            border: 3px solid #c71352; 
+            border-radius: 5px;
+            transition: 0.2s;
+        }
+
+        .vestimgs:hover{
+            border: 3px solid #dd6c93;
             transition: 0.2s ease-out;
         }
 
