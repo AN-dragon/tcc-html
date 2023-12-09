@@ -20,7 +20,7 @@ getTopPage();
          </div>
 
          <div class="col-7">
-            <h2 style="margin-top: 10px; font-weight: bold; font-family: Century Gothic;">
+            <h2 class="sobtitulo">
                Quem é Carla Beloto?
             </h2>
 
@@ -55,16 +55,16 @@ getTopPage();
 
                      <div class="col-6">
 
-                        <h5 class="sobConth5">Entre em contato</h5>
-                        <h6 class="sobConth6">Em Palmital:</h6>
+                        <h5 class="sobconth5">Entre em contato</h5>
+                        <h6 class="sobconth6">Em Palmital:</h6>
 
-                        <p class="sobConth6">
+                        <p class="sobconth6">
                            Local: Avenida Reginalda Leão, 257 - 1º andar.
                            <br />
                            Centro - Palmital, São Paulo.
                         </p>
 
-                        <p class="sobConth6">
+                        <p class="sobconth6">
                            Telefone: +55 (18) 99 99621-6617
                         </p>
                      </div>
@@ -72,9 +72,9 @@ getTopPage();
 
                      <div class="col-6">
                         <h5>&nbsp;</h5>                 
-                        <h6 class="sobConth6">Em Assis:</h6>
+                        <h6 class="sobconth6">Em Assis:</h6>
 
-                        <p class="sobConth6">
+                        <p class="sobconth6">
                            Local: Avenida Nove de Julho, 851.
                            <br />
                            Centro - Assis, São Paulo.
@@ -123,14 +123,26 @@ getTopPage();
    <br />
 
    <style>
-      .sobConth5{
+      /* Contatos */
+      .sobconth5{
          font-family: Century Gothic;
          font-size: 21px;
       }
 
-      .sobConth6{
+      .sobconth6{
          font-family: Century Gothic;
          font-size: 19px;
+      }
+
+      .sobtitulo{
+         margin-top: 10px; 
+         font-weight: bold; 
+         font-family: Century Gothic;
+         transition: 0.2s;
+      }
+      .sobtitulo:hover{
+         color: #5b5b5b;
+         transition: 0.2s ease-out;
       }
 
    </style>
